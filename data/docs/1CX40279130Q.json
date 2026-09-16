@@ -1,0 +1,54 @@
+{
+ "ref": "1CX40279130Q",
+ "refDisplay": "1CX4 0 279 130Q",
+ "title": "FAISCEAU TUBES ALIM / RETOUR AV D",
+ "nature": "",
+ "applicability": "(RKAM) C5 BERLINE 5PTES INJECTION EW10D BVM5",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F7N",
+   "fctId": "FCT0337"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0337"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0337"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F3L",
+   "fctId": "FCT0337"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F7N",
+   "fctId": "FCT0337"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0337"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0337"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F3L",
+   "fctId": "FCT0337"
+  }
+ ]
+}

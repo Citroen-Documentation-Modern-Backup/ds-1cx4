@@ -1,0 +1,302 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">D4EM15P0</td><td class="title">Opérations après-vente : Système AutoPC (phase 2)</td></tr></tbody></table></div><div id="appl" class="section_appl"> DEPUIS OPR 8879</div><div class="section_corps" id="content"><div class="cha1"><div class="sti1">1. Lecture des défauts</div></div>
+<div class="tli">Il est possible de lire les défauts suivants à l’aide de l’outil de diagnostic : 
+<ul>
+<li>Un ou plusieurs haut-parleurs défaillants</li>
+<li>Défaut de réception de la radio</li>
+<li>Défaut de lecture des CD audio  (unité centrale)</li>
+<li>Défaut de lecture des CD de données (unité centrale)</li>
+<li>Défaut de lecture des CD audio et des CD de données (unité centrale)</li>
+<li>Module GSM de l’antenne trifonctions défaillant ou débranché (non utilisé)</li>
+<li>Module GPS de l’antenne trifonctions défaillant ou débranché (non utilisé)</li>
+<li>Liaison I²C défaillante (défaut de communication entre l’unité centrale et l’unité annexe)</li>
+<li>Liaison USB défaillante (défaut de communication entre unité centrale, l’unité annexe et le port USB)</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">2. Mesure paramètres - Télécodage</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="3">Il est possible de lire et de télécoder les paramètres suivants   À l’aide de l’outil de diagnostic </th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Paramètre</td>
+<td colspan="1" rowspan="1">État du paramètre</td>
+<td colspan="1" rowspan="1">Détails des fonctions</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Code VIN du véhicule</td>
+<td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Permet de vérifier le code VIN mémorisé dans l’AutoPC (doit être similaire à celui du BSI)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Asservissement du volume de l’autoradio à la vitesse du véhicule</td>
+<td colspan="1" rowspan="1">Inactif  Actif</td>
+<td colspan="1" rowspan="1">Permet de vérifier si l’asservissement du volume à la vitesse du véhicule est activé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Volume réglé en fonction de la source sonore</td>
+<td colspan="1" rowspan="1">Inactif  Actif</td>
+<td colspan="1" rowspan="1">Permet de vérifier si les différentes sources audio ont des réglages indépendants</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Aide au stationnement</td>
+<td colspan="1" rowspan="1">Inactif  Actif</td>
+<td colspan="1" rowspan="1">Permet de vérifier si l’aide au stationnement est activée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sortie téléphone sur haut-parleurs</td>
+<td colspan="1" rowspan="1">Gauche   Droite</td>
+<td colspan="1" rowspan="1">Permet de vérifier sur quel haut-parleur le son du téléphone est diffusé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Loi de correction du niveau de volume</td>
+<td colspan="1" rowspan="1">Loi n°0 à loi n°15</td>
+<td colspan="1" rowspan="1">Permet de vérifier la loi choisie de la correction du volume par rapport à la vitesse (loi allant de 0 à 15)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Continuité sur erreur réseau</td>
+<td colspan="1" rowspan="1">Inactif  Actif</td>
+<td colspan="1" rowspan="1">Permet de vérifier si le mode autonome est activé si le VAN est défectueux</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Marque constructeur</td>
+<td colspan="1" rowspan="1">Citroën   Peugeot</td>
+<td colspan="1" rowspan="1">Permet de vérifier la marque du véhicule pour accéder à l’aide en ligne</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Appel d’urgence automatique (non utilisé)</td>
+<td colspan="1" rowspan="1">Désactivé</td>
+<td colspan="1" rowspan="3">Permet l’activation de l’appel d’urgence sur activation d’un coussin gonflable en mode automatique ou après validation par l’utilisateur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appel automatique</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appel après validation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="8">Zone géographique</td>
+<td colspan="1" rowspan="1">Europe Occidentale</td>
+<td colspan="1" rowspan="8">Permet de vérifier si l’autoradio est configuré pour la bonne zone géographique d’utilisation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">JAPON</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Amérique Latine</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Asie</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Inde</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Europe de l’Est</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Arabie</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Autres pays</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Configuration des sorties audio</td>
+<td colspan="1" rowspan="1">Sortie haut-parleurs </td>
+<td colspan="1" rowspan="2">Permet de vérifier la configuration sortie audio vers haut-parleurs ou bien vers une sortie pour un amplificateur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sortie amplificateur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Bande AM </td>
+<td colspan="1" rowspan="1">Inactive  Active</td>
+<td colspan="1" rowspan="1">Permet de vérifier si la configuration de l’autoradio est prévue pour un véhicule électrique ou pas (inactive pour un véhicule électrique)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Fader et haut-parleurs arrière</td>
+<td colspan="1" rowspan="1">Non activé / activé</td>
+<td colspan="1" rowspan="1">Permet de vérifier si la configuration de l’autoradio est en 2 ou 4 HP</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Affichage de l’heure</td>
+<td colspan="1" rowspan="1">24 heures </td>
+<td colspan="1" rowspan="2">Permet de vérifier le mode d’affichage de l’heure</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">12 heures AM et PM</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Unité d’affichage température</td>
+<td colspan="1" rowspan="1">Celsius / Fahrenheit</td>
+<td colspan="1" rowspan="1">Permet de connaître l’unité de température utilisée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Unité des vitesses</td>
+<td colspan="1" rowspan="1"> km/h</td>
+<td colspan="1" rowspan="2">Permet de vérifier l’unité des vitesses</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> mph</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Notation de la date</td>
+<td colspan="1" rowspan="1">JJ MM AA</td>
+<td colspan="1" rowspan="2">Permet de connaître la notation de la date utilisée (anglophone ou francophone)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">MM JJ AA</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mode heure automatique par GPS</td>
+<td colspan="1" rowspan="1">Inactif  Actif</td>
+<td colspan="1" rowspan="1">Permet de vérifier si la fonction heure automatique est active</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">Décalage horaire</td>
+<td colspan="1" rowspan="1">0h supplémentaire</td>
+<td colspan="1" rowspan="3">Permet de vérifier si un décalage horaire a été effectué</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1h à 12h supplémentaires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1h à 12h retranchées</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Heure d’été / d’hiver</td>
+<td colspan="1" rowspan="1">Inactive  Active</td>
+<td colspan="1" rowspan="1">Permet de vérifier si la fonction heure d’été et d’hiver est active</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Mode jour / nuit</td>
+<td colspan="1" rowspan="1">Inactif  Actif</td>
+<td colspan="1" rowspan="1">Permet de vérifier si la fonction mode jour / nuit est activée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Table d’éclairement </td>
+<td colspan="1" rowspan="1">0x00 à 0xff</td>
+<td colspan="1" rowspan="1">Permet de vérifier le niveau d’éclairement des touches de l’AutoPc</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Qualité du signal audio</td>
+<td colspan="1" rowspan="1">0 à 15</td>
+<td colspan="1" rowspan="1">Permet de quantifier la qualité du signal issu de l’antenne radio</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Niveau du signal audio</td>
+<td colspan="1" rowspan="1">0 à 15</td>
+<td colspan="1" rowspan="1">Permet de quantifier le niveau du signal issu de l’antenne radio</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Touche "Mute"</td>
+<td colspan="1" rowspan="1">Inactive  Active</td>
+<td colspan="1" rowspan="1">Permet de vérifier le bon fonctionnement de la touche "Mute"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Touche "MODE"</td>
+<td colspan="1" rowspan="1">Inactive  Active</td>
+<td colspan="1" rowspan="1">Permet de vérifier le bon fonctionnement de la touche "Mode"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Touche balayage mémoires</td>
+<td colspan="1" rowspan="1">Inactive / plus active / moins active</td>
+<td colspan="1" rowspan="1">Permet de vérifier le bon fonctionnement de la touche de balayage des mémoires</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Touche de recherche</td>
+<td colspan="1" rowspan="1">Inactive / plus active / moins active</td>
+<td colspan="1" rowspan="1">Permet de vérifier le bon fonctionnement de la touche de recherche</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Bouton de volume</td>
+<td colspan="1" rowspan="1">Inactive / plus active / moins active</td>
+<td colspan="1" rowspan="1">Permet de vérifier le bon fonctionnement du bouton de volume</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Numéro vocal pour l’appel d’urgence</td>
+<td colspan="1" rowspan="1">Numéro de téléphone</td>
+<td colspan="1" rowspan="1">Permet de vérifier le numéro d’appel d’urgence vers un opérateur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Numéro vocal pour l’appel d’assistance</td>
+<td colspan="1" rowspan="1">Numéro de téléphone</td>
+<td colspan="1" rowspan="1">Permet de vérifier le numéro d’appel de service de dépannage vers un opérateur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Numéro vocal pour l’appel d’information</td>
+<td colspan="1" rowspan="1">Numéro de téléphone</td>
+<td colspan="1" rowspan="1">Permet de vérifier le numéro de téléphone du service en ligne</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Numéro du SMSC (pour les messages courts)</td>
+<td colspan="1" rowspan="1">Numéro de téléphone</td>
+<td colspan="1" rowspan="1">Permet de vérifier le numéro du centre SMS</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Identifiant de l’opérateur GSM</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Permet de vérifier l’identifiant de l’opérateur GSM (PLN = Phone Line Number)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Index de données ACP</td>
+<td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Permet de vérifier le pointeur correspondant à une table de numéros de téléphone</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Numéro SMS pour appel d’urgence, appel d’assistance et appel d’information (accès au serveur de localisation)</td>
+<td colspan="1" rowspan="1">Numéro de téléphone</td>
+<td colspan="1" rowspan="1">Permet de vérifier le numéro d’appel d’urgence, d’appel de service de dépannage, et du service en ligne par SMS</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><div class="sti1">3. Test actionneurs</div></div>
+<div class="tli">Il est possible d’effectuer les tests actionneurs suivants   À l’aide de l’outil de diagnostic  : 
+<ul>
+<li>Recherche montante des fréquences</li>
+<li>Bip dans le haut-parleur avant gauche</li>
+<li>Bip dans le haut-parleur avant droit</li>
+<li>Bip dans le haut-parleur arrière gauche</li>
+<li>Bip dans le haut-parleur arrière droit</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">4. Réinitialisation de l’AutoPc</div></div>
+<div id="d5ap01fc_1_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/fc/d5ap/d5ap01fc.avif" class="image" height="300" width="300" id="d5ap01fc_1"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d5ap01fc</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/fc/d5ap/d5ap01fc.avif" data-figure="1"><img id="d5ap01fc_1_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Légende : 
+<ul>
+<li>"   a" : Bouton "RESET 2"</li>
+<li>"b" : Bouton "RESET 1"</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">4.1. Réinitialisation logiciel</div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Avant d’effectuer une réinitialisation usine, il est nécessaire de faire une sauvegarde des données et réglages personnels du client sur une carte CompactFlash. </div></div>
+<div class="par">Si l’AutoPC ne répond plus aux commandes, il faut effectuer une réinitialisation logiciel afin de remettre le système en état opérationnel.</div><div class="par">Les signes indiquant un fonctionnement anormal peuvent être l’apparition d’un écran noir vierge ou l’affichage du message du type "Veuillez patienter..." pendant une durée excessive.</div><div class="par">Il faut toujours essayer la procédure de réinitialisation logiciel en premier.</div><div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Action à effectuer</td>
+<td colspan="1" rowspan="1">Remarques</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appuyer sur le bouton          "b"  À l’aide d’une pointe fine (exemple : trombone ouvert)</td>
+<td colspan="1" rowspan="1">Les données en cours de saisie ne sont pas enregistrées</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">4.2. Réinitialisation matériel</div></div>
+<div class="par">Si une réinitialisation logiciel ne permet pas de remettre le système en état opérationnel, essayer une réinitialisation matériel.</div><div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Action à effectuer</td>
+<td colspan="1" rowspan="1">Remarques</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sauvegarder, si possible, les données mémorisées dans l’AutoPC sur une carte CompactFlash</td>
+<td colspan="1" rowspan="1">Après une réinitialisation matériel, le système sera réinitialisé aux paramètres programmés en usine</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appuyer simultanément sur les bouton "   a" et "b"  À l’aide d’une pointe fine</td>
+<td colspan="1" rowspan="1">Liste des éléments perdus après l’opération : Carnet d’adresses, Mémos vocaux, Données et réglages personnels, TMC (Traffic Message Channel), Téléphone, Messages vocaux, Navigation </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Attendre 2 secondes</td>
+<td colspan="1" rowspan="1"></td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Relâcher le bouton "b", puis le bouton "a"</td>
+<td colspan="1" rowspan="1"></td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Si aucune sauvegarde n’est effectuée, les données présentes dans la RAM seront perdues. </div></div>
+<div class="tli">Après une réinitialisation matériel, effectuer les opérations suivantes : 
+<ul>
+<li>Réinstallation à l’aide du CD-ROM de logiciels ou restauration à l’aide d’une carte CompactFlash     (voir opération correspondante)</li>
+<li>Synchronisation des 2 unités de commande</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">4.3. Synchronisation des 2 unités de commande</div></div>
+<div class="par">L’unité centrale et l’unité annexe communiquent entre elles via les réseaux  I²C et USB.</div><div class="par">Les   2 unités de commande utilisent chacune une horloge qui leur permet de reconnaître les trames.</div><div class="par">Si les   2 horloges ne sont pas synchronisées, une trame émise par une unité peut être considérée comme invalide par l’unité destinataire de cette trame.</div><div class="tli">Des problèmes de communication peuvent alors apparaître et perturber les fonctions suivantes : 
+<ul>
+<li>Réception radio RDS</li>
+<li>Lecture de CD</li>
+<li>Navigation </li>
+<li>Téléphone</li>
+<li>TMC (Traffic Message Channel)</li>
+<li>Amplificateur de puissance</li>
+</ul>
+</div>
+<div class="par">Après une procédure d’installation ou de restauration du système, les   2 unités de commande doivent être synchronisées.</div><div id="d5bp008c_2_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/8c/d5bp/d5bp008c.avif" class="image" height="300" width="300" id="d5bp008c_2"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d5bp008c</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/8c/d5bp/d5bp008c.avif" data-figure="1"><img id="d5bp008c_2_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">"      c" : Orifice du bouton de synchronisation.</div><div class="tli">Effectuer les opérations suivantes : 
+<ul>
+<li>Enlever la garniture de l’unité annexe</li>
+<li>Effectuer une pression sur le bouton de synchronisation situé dans l’orifice "  c"  À l’aide d’une pointe fine</li>
+<li>Effectuer immédiatement une réinitialisation logiciel de l’AutoPC (pression sur le bouton "RESET 1")</li>
+<li>Reposer la garniture de l’unité annexe</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">5. Débranchement ou remplacement de la batterie</div></div>
+<div class="par">En cas de débranchement de la batterie, un accumulateur de sécurité permet de maintenir l’alimentation et les données du système AutoPC pendant  3 jours.</div><div class="tli">L’accumulateur de sécurité est également utilisé dans les cas suivants : 
+<ul>
+<li>Décharge de la batterie du véhicule</li>
+<li>Dépose des fusibles   F20 ou F24</li>
+<li>Retour au mode "Park" (déplacement du fusible SH)</li>
+</ul>
+</div>
+<div class="tli">Si le temps d’autonomie de l’accumulateur de sécurité est dépassé, les données suivantes sont perdues : 
+<ul>
+<li>Carnet d’adresses</li>
+<li>Mémos vocaux</li>
+<li>Données et réglages personnels   (réglages de l’AutoPC, apprentissages personnalisés de la voix du client)</li>
+<li>Applications (messages, navigation, TMC, téléphone)</li>
+</ul>
+</div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Avant de débrancher la batterie du véhicule pour plus de   3 jours, il est nécessaire d’effectuer une sauvegarde sur une carte CompactFlash. </div></div>
+<div class="cha1"><div class="sti1">6. Débranchement des unités de commande</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Le débranchement d’une ou plusieurs unités de commande peut avoir les conséquences suivantes</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Action </td>
+<td colspan="1" rowspan="1">Effet sur la sauvegarde des informations</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Débranchement des liaisons entre les 2 unités de commande</td>
+<td colspan="1" rowspan="2">Aucune information n’est perdue</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Débranchement de l’unité annexe (batterie du véhicule branchée)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Débranchement de l’unité centrale</td>
+<td colspan="1" rowspan="2">Perte de toutes les informations présentes dans la RAM de l’AutoPC</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Débranchement de l’unité annexe (batterie du véhicule débranchée)</td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Avant de débrancher une unité de commande, il est nécessaire d’effectuer une sauvegarde sur une carte CompactFlash. </div></div>
+<div class="cha1"><div class="sti1">7. Sauvegarde et restauration des informations</div></div>
+<div class="par">Les options de sauvegarde et de restauration permettent de manipuler les données et les paramètres du système     À l’aide d’une carte CompactFlash.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Il est recommandé d’utiliser une carte CompactFlash d’une taille de   32Mo. </div></div>
+<div id="d5ap01jc_3_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/jc/d5ap/d5ap01jc.avif" class="image" height="300" width="300" id="d5ap01jc_3"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d5ap01jc</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/jc/d5ap/d5ap01jc.avif" data-figure="1"><img id="d5ap01jc_3_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">      (1) Carte CompactFlash.</div><div class="cha2"><div class="sti2">7.1. Sauvegarde des informations</div></div>
+<div class="par">La sauvegarde des informations sur la carte CompactFlash exporte et protège toutes les données stockées dans la RAM de l’AutoPC.</div><div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Pendant l’opération de sauvegarde, il est impossible d’utiliser d’autres programmes de l’AutoPC avant que la sauvegarde ne soit terminée. </div></div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Effectuer les opérations suivantes</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Étape </td>
+<td colspan="1" rowspan="1">Action à effectuer</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">1</td>
+<td colspan="1" rowspan="1">Sélectionner "Configuration" dans le menu de démarrage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appuyer sur "ENTRÉE"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">2</td>
+<td colspan="1" rowspan="1">Sélectionner "Sauvegarde/Restauration"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appuyer sur "ENTRÉE"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">3</td>
+<td colspan="1" rowspan="1">Sélectionner "Sauvegarde"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appuyer sur "ENTRÉE"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">4</td>
+<td colspan="1" rowspan="1">Appuyer sur "ENTRÉE" (début de l’opération de sauvegarde)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Suivre les instructions à l’écran multifonction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5</td>
+<td colspan="1" rowspan="1">Insérer une carte CompactFlash dans l’AutoPc, étiquette dirigée vers la gauche</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">6</td>
+<td colspan="1" rowspan="1">Sélectionner "OK"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appuyer sur "ENTRÉE" (sauvegarde des informations)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sinon, sélectionner "Supprimer" pour abandonner l’opération</td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Si la carte CompactFlash ne dispose plus d’assez d’espace mémoire disponible, choisir "Formater" dans les options du menu de configuration  . Toutes les données présentes sur la carte CompactFlash seront définitivement supprimées. </div></div>
+<div class="cha2"><div class="sti2">7.2. Restauration des informations</div></div>
+<div class="par">La restauration des informations à partir de la carte CompactFlash remplace toutes les données stockées dans l’AutoPC.</div><div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Effectuer les opérations suivantes</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Étape </td>
+<td colspan="1" rowspan="1">Action à effectuer</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">1</td>
+<td colspan="1" rowspan="1">Sélectionner "Configuration" dans le menu de démarrage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appuyer sur "ENTRÉE"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">2</td>
+<td colspan="1" rowspan="1">Sélectionner "Sauvegarde/Restauration"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appuyer sur "ENTRÉE"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">3</td>
+<td colspan="1" rowspan="1">Sélectionner "Restauration"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appuyer sur "ENTRÉE"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">4</td>
+<td colspan="1" rowspan="1">Appuyer sur "ENTRÉE" (début de l’opération de restauration)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5</td>
+<td colspan="1" rowspan="1">Insérer une carte CompactFlash dans l’AutoPc, étiquette dirigée vers la gauche</td>
+</tr><tr valign="top"><td colspan="1" rowspan="3">6</td>
+<td colspan="1" rowspan="1">Sélectionner "OK"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appuyer sur "ENTRÉE" (restauration des informations)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sinon, sélectionner "Supprimer" pour abandonner l’opération</td>
+</tr></tbody></table>
+</div>
+</div>

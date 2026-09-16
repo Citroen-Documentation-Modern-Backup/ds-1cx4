@@ -1,0 +1,30 @@
+{
+ "ref": "B1HJ0BP0",
+ "refDisplay": "B1HJ0BP0",
+ "title": "Nettoyage : élément filtrant du filtre à air  Citroën C5 BY CARLSSON",
+ "nature": "Remise en état",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F3L",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F3M",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F3M",
+   "fctId": "FCT0010"
+  }
+ ]
+}

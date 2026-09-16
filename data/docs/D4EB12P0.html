@@ -1,0 +1,358 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">D4EB12P0</td><td class="title">Boîtier de servitude intelligent  : Équipements multiplexés</td></tr></tbody></table></div><div id="appl" class="section_appl"> DEPUIS OPR 8631</div><div class="section_corps" id="content"><div class="cha1"><div class="sti1">1. Boîtier de servitude intelligent (BSI)</div></div>
+<div class="cha2"><div class="sti2">1.1. Description</div></div>
+<div id="d4ep042d_1_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/2d/d4ep/d4ep042d.avif" class="image" height="360" width="615" id="d4ep042d_1"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep042d</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/2d/d4ep/d4ep042d.avif" data-figure="1"><img id="d4ep042d_1_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Le boîtier de servitude intelligent (BSI)  est un calculateur qui intègre les éléments suivants : 
+<ul>
+<li>Une électronique d’interface (relais, fusibles, prise diagnostic)</li>
+<li>Une électronique de contrôle : Le BSI gère la communication entre les calculateurs et le transfert d’informations entre les réseaux</li>
+<li>Une électronique de calcul : Le BSI gère de manière autonome des fonctions de base</li>
+<li>Une mémoire non-volatile pour la protection antivol (code BSI, code VIN du véhicule, code des clés, de la télécommande, identification de l’autoradio, ...). Un code appelé code diagnostic est mémorisé dans le BSI. Ce code accessible par les outils de diagnostic permet de connaître précisément la nature des calculateurs installés sur le véhicule</li>
+<li>Un programme qui permet de contrôler l’ensemble, d’effectuer un diagnostic et du télécodage</li>
+</ul>
+</div>
+<div class="par">Le BSI  contribue à la gestion de l’énergie en commandant des modes de consommation réduite pour lui et les autres calculateurs multiplexés.</div><div class="cha2"><div class="sti2">1.2. Fonctions gérées par le BSI</div></div>
+<div class="par">Le BSI est le calculateur central de l’architecture électrique du véhicule.</div><div class="par">Le BSI comporte une structure d’accueil logicielle qui permet d’intégrer des logiciels en provenance de différents équipementiers.</div><div class="par">Une fonction peut donc être réalisée par un ou plusieurs systèmes associé à des lots logiciels internes au BSI, tels que l’éclairage, la visibilité, ou la gestion des ouvrants.</div><div class="par">Les logiciels sont indépendants de la structure matérielle et donc facilement réutilisables pour des évolutions futures.</div><div class="par">Le BSI sert d’interface entre les réseaux          : Le BSI acquiert les informations provenant du réseau CAN et les diffuse sur le réseau VAN (et inversement), pour les besoins d’une fonction.</div><div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Domaines</td>
+<td colspan="1" rowspan="1">Fonctions gérées par le BSI</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Alimentation électrique</td>
+<td colspan="1" rowspan="1">Mise en veille/mise hors veille</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Coupure automatique des fonctions consommatrices de courant   (mode économie)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Éclairage intérieur</td>
+<td colspan="1" rowspan="1">Commande d’allumage et extinction temporisé des plafonniers avant et arrière</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Éclairage extérieur - Signalisation </td>
+<td colspan="1" rowspan="1">Allumage automatique des feux de croisement </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Allumage automatique des feux de détresse en cas de choc</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Allumage automatique des feux de détresse en cas de décélération brusque</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Temporisation d’extinction des projecteurs</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Commande des feux de direction et répétiteurs latéraux</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Commande des feux de croisement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Commande des feux de brouillard arrière</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Détection d’ampoule défectueuse</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Localisation du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Essuyage / lavage</td>
+<td colspan="1" rowspan="1">Essuyage automatique du pare-brise avec capteur de pluie</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Balayage intermittent des essuie-vitres asservi à la vitesse du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rétrovision</td>
+<td colspan="1" rowspan="1">Gestion du rabattement automatique des rétroviseurs extérieurs au verrouillage des ouvrants</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Indexage du miroir du rétroviseur passager à la marche arrière</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Dégivrage </td>
+<td colspan="1" rowspan="1">Délestage de la lunette arrière chauffante</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Contrôle de survitesse</td>
+<td colspan="1" rowspan="1">Gestion de l’alerte de survitesse avec seuil préprogrammé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Gestion de l’alerte de survitesse avec seuil programmable</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Mémorisation du seuil de survitesse</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Détection de sous-gonflage</td>
+<td colspan="1" rowspan="1">Gestion des seuils de pression et de position des pneumatiques</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Apprentissage des identificateurs des roues du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Alerte crevaison</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Alerte sous-gonflage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Alerte module émetteur de pneumatique manquant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Climatisation </td>
+<td colspan="1" rowspan="1">Commande du compresseur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Gestion des sécurités du compresseur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Transmission des informations provenant de la thermistance d’ensoleillement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lève-vitres électriques</td>
+<td colspan="1" rowspan="1">Fonctionnement du toit ouvrant asservi à la vitesse du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1"> toit ouvrant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Fermeture automatique du toit ouvrant et des vitres en cas de pluie</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Fermeture du toit ouvrant et des vitres par télécommande</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Système audio </td>
+<td colspan="1" rowspan="1">Authentification de l’autoradio par code VIN</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Asservissement du volume de l’autoradio à la vitesse du véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Transmission des informations provenant du système audio pour la gestion de l’affichage des messages à l’écran multifonction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Gestion des ouvrants</td>
+<td colspan="1" rowspan="1">Commande des actionneurs des ouvrants (verrouillage, déverrouillage, superverrouillage)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Reverrouillage automatique des ouvrants</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Verrouillage automatique du coffre par seuil de vitesse véhicule</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Détection de porte ouverte</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Déverrouillage automatique en cas de choc</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Rabattement automatique des rétroviseurs extérieurs au verrouillage</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Alarme antieffraction </td>
+<td colspan="1" rowspan="1">Alarme périmétrique et volumétrique</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Antidémarrage codé</td>
+<td colspan="1" rowspan="1">Reconnaissance de la clé de contact</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Déverrouillage du calculateur moteur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Coussins gonflables</td>
+<td colspan="1" rowspan="1">Coupure d’alimentation de la pompe à carburant et de la pompe du brûleur additionnel en cas de choc</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Appel d’urgence</td>
+<td colspan="1" rowspan="1">Appel d’urgence automatique en cas de choc</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Refroidissement</td>
+<td colspan="1" rowspan="1">Acquisition de la température d’eau moteur et de la pression de circuit de réfrigération pour la commande de la vitesse moyenne</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"></td>
+<td colspan="1" rowspan="1">Diffusion de l’alerte de température d’eau moteur</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><div class="sti1">2. Calculateurs du réseau CAN</div></div>
+<div class="cha2"><div class="sti2">2.1. Calculateur de suspension hydractive (bloc hydroélectronique Intégré)</div></div>
+<div id="b3bp16ld_2_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/ld/b3bp/b3bp16ld.avif" class="image" height="360" width="615" id="b3bp16ld_2"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b3bp16ld</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/ld/b3bp/b3bp16ld.avif" data-figure="1"><img id="b3bp16ld_2_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Légende    : (1) Calculateur de suspension hydractive.</div><div class="par">Le calculateur de suspension commande le moteur électrique et le générateur autonome de pression.</div><div class="cha2"><div class="sti2">2.2. Calculateur   ABS/ASR</div></div>
+<div id="b3gp02ld_3_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/ld/b3gp/b3gp02ld.avif" class="image" height="360" width="615" id="b3gp02ld_3"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b3gp02ld</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/ld/b3gp/b3gp02ld.avif" data-figure="1"><img id="b3gp02ld_3_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Le calculateur    ABS (2) acquiert les informations données par les capteurs de roue.</div><div class="tli">À partir des informations acquises par le calculateur   ABS, celui-ci assure les fonctions suivantes : 
+<ul>
+<li>Calcul de la vitesse du véhicule</li>
+<li>Calcul de la distance parcourue</li>
+<li>Calcul de l’accélération longitudinale</li>
+<li>Modulation de la pression de freinage</li>
+</ul>
+</div>
+<div class="par">Le calculateur   ABS est implanté sur le passage de roue avant gauche.</div><div class="cha2"><div class="sti2">2.3. Calculateur moteur </div></div>
+<div id="b1bp2cec_4_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/ec/b1bp/b1bp2cec.avif" class="image" height="300" width="300" id="b1bp2cec_4"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1bp2cec</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/ec/b1bp/b1bp2cec.avif" data-figure="1"><img id="b1bp2cec_4_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Le calculateur moteur (   3) gère l’ensemble du système d’injection.</div><div class="tli">Le logiciel du calculateur intègre les fonctions suivantes : 
+<ul>
+<li>Contrôle de l’injection et de la dépollution   (EOBD : European On Bord Diagnosis)</li>
+<li>Élaboration des stratégies d’agrément de conduite</li>
+<li>Antidémarrage électronique </li>
+<li>Élaboration des stratégies de secours</li>
+<li>Gestion de la commande des motoventilateurs et leur diagnostic</li>
+<li>Diagnostic avec mémorisation des défauts</li>
+<li>Gestion de la régulation de vitesse</li>
+<li>Gestion du refroidissement moteur</li>
+<li>Dialogue avec les calculateurs du réseau multiplexé CAN</li>
+</ul>
+</div>
+<div class="par">Fonction   EOBD.</div><div class="par">La fonction Européen On Board Diagnostic (EOBD) permet le contrôle des défauts liés à la pollution.</div><div class="cha2"><div class="sti2">2.4. Calculateur de boîte de vitesses automatique </div></div>
+<div id="b1bp2cfc_5_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/fc/b1bp/b1bp2cfc.avif" class="image" height="300" width="300" id="b1bp2cfc_5"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1bp2cfc</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/fc/b1bp/b1bp2cfc.avif" data-figure="1"><img id="b1bp2cfc_5_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Le calculateur de boîte de vitesses automatique (   4) assure les fonctions suivantes : 
+<ul>
+<li>Sélection du rapport de boîte de vitesses adéquat</li>
+<li>Commande impulsionnelle de passage des rapports</li>
+<li>Gestion des programmes Sport et Neige</li>
+</ul>
+</div>
+<div class="tli">Le calculateur de boîte de vitesses automatique utilise les paramètres suivants : 
+<ul>
+<li>Style de conduite</li>
+<li>Couple moteur </li>
+<li>Vitesse du véhicule</li>
+<li>Régime moteur</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">3. Calculateurs du réseau VAN CAR 1</div></div>
+<div class="cha2"><div class="sti2">3.1. Boîtier de servitude moteur </div></div>
+<div id="b1bp2cgd_6_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/gd/b1bp/b1bp2cgd.avif" class="image" height="360" width="615" id="b1bp2cgd_6"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1bp2cgd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/gd/b1bp/b1bp2cgd.avif" data-figure="1"><img id="b1bp2cgd_6_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   a : Module 2.</div><div class="par">  b : Module 1.</div><div class="par">  c : Étiquette d’identification produit.</div><div class="par">Le boîtier de servitude moteur (  5) commande les relais de puissance du véhicule sur ordre de la BSI via le réseau VAN CAR 1.</div><div class="par">Le boîtier de servitude moteur est situé sous le capot moteur, sur le passage de roue avant gauche.</div><div class="tli">Le boîtier de servitude moteur est constitué de     2 modules associés : 
+<ul>
+<li>Module 1 : Maxi fusibles </li>
+<li>Module 2 : Carte électronique, fusibles et relais</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">3.2. Module de commutation sous volant de direction</div></div>
+<div id="d4ap00xd_7_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/xd/d4ap/d4ap00xd.avif" class="image" height="360" width="615" id="d4ap00xd_7"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ap00xd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/xd/d4ap/d4ap00xd.avif" data-figure="1"><img id="d4ap00xd_7_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Le module de commutation sous volant de direction est un boîtier monobloc regroupant les éléments suivants : 
+<ul>
+<li>Le support combinateur    (7)</li>
+<li>Le contact tournant (8)</li>
+<li>Le commutateur d’essuyage (9)</li>
+<li>La commande de système audio (10) (selon version)</li>
+<li>Le commutateur de régulation de vitesse (11) (selon version)</li>
+<li>Le commutateur d’éclairage (6)</li>
+</ul>
+</div>
+<div class="par">Le module de commutation sous volant de direction assure l’interface homme / machine pour les commandes de radio, de régulation de vitesse, d’essuyage et d’éclairage.</div><div class="par">Le module de commutation sous volant de direction retransmet au BSI les actions de l’utilisateur via le réseau multiplexé.</div><div class="tli">Le module de commutation sous volant de direction assure les fonctions suivantes : 
+<ul>
+<li>Pilotage du bruiteur intégré au support combinateur en fonction des demandes de son émis par le BSI</li>
+<li>Réception des messages HF en provenance du plip et des émetteurs de sous-gonflage</li>
+<li>Communication avec le transpondeur pour l’antidémarrage codé</li>
+<li>Retransmission des informations provenant du capteur d’angle volant de direction</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">3.3. Calculateur coussins gonflables</div></div>
+<div id="c5fp0cvd_8_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/vd/c5fp/c5fp0cvd.avif" class="image" height="360" width="615" id="c5fp0cvd_8"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">c5fp0cvd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/vd/c5fp/c5fp0cvd.avif" data-figure="1"><img id="c5fp0cvd_8_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Le calculateur coussins gonflables (   12) assure les fonctions suivantes : 
+<ul>
+<li>Détection de choc</li>
+<li>Déclenchement des coussins gonflables et des ceintures de sécurité à prétension pyrotechnique</li>
+<li>Alimentation de secours des allumeurs frontaux en cas de rupture de leur alimentation au moment du choc</li>
+<li>Gestion des modes dégradés de fonctionnement</li>
+<li>Information du conducteur sur les défaillances du système</li>
+<li>Autodiagnostic du système</li>
+<li>Diagnostic - mémorisation de l’état de configuration du système</li>
+<li>Information du conducteur sur l’activation ou la neutralisation du coussin gonflable frontal passager</li>
+</ul>
+</div>
+<div class="par">L’accéléromètre électronique implanté dans le boîtier permet la détection de choc frontal et de choc arrière.</div><div class="par">Un capteur de sécurité interdit la mise à feu allumeurs en cas de défaillance de l’accéléromètre électronique et/ou du calculateur coussins gonflables.</div><div class="par">Les       2 capteurs de déclenchement des coussins gonflables latéraux mesurent en permanence la décélération latérale et en informent le calculateur coussins gonflables.</div><div class="par">En cas de choc, le calculateur coussins gonflables envoie une information de déclenchement d’un élément pyrotechnique au BSI via le réseau   VAN CAR 1.</div><div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Faire remettre en état le système par le réseau après déclenchement d’un élément pyrotechnique. </div></div>
+<div class="cha1"><div class="sti1">4. Calculateurs du réseau   VAN CAR 2</div></div>
+<div class="cha2"><div class="sti2">4.1. Calculateur d’additif de gazole</div></div>
+<div id="c5gp08cd_9_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/cd/c5gp/c5gp08cd.avif" class="image" height="360" width="615" id="c5gp08cd_9"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">c5gp08cd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/cd/c5gp/c5gp08cd.avif" data-figure="1"><img id="c5gp08cd_9_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Le calculateur d’additif de gazole (   13) gère l’injection d’additif.</div><div class="tli">Le logiciel du calculateur d’additif de gazole intègre les fonctions suivantes : 
+<ul>
+<li>La gestion du début et du temps d’injection d’additif dans le réservoir à carburant</li>
+<li>La gestion de la quantité totale d’additif injecté depuis le début de la vie du filtre</li>
+<li>Les stratégies de secours</li>
+<li>Le diagnostic avec mémorisation des défauts</li>
+<li>Le dialogue avec le calculateur d’injection</li>
+</ul>
+</div>
+<div class="tli">Le calculateur d’additif de gazole assure le contrôle électrique des éléments suivants : 
+<ul>
+<li>Sonde de niveau minimum d’additif</li>
+<li>Pompe d’injection d’additif</li>
+<li>Injecteur d’additif</li>
+<li>Contact présence bouchon réservoir à carburant</li>
+<li>Capteur de température gaz d’échappement aval catalyseur</li>
+</ul>
+</div>
+<div class="par">Le calculateur d’additif de gazole est implanté sur longeron intérieur du côté droit du véhicule.</div><div class="cha2"><div class="sti2">4.2. Module de porte</div></div>
+<div id="c4cp0sfc_10_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/fc/c4cp/c4cp0sfc.avif" class="image" height="300" width="300" id="c4cp0sfc_10"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">c4cp0sfc</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/fc/c4cp/c4cp0sfc.avif" data-figure="1"><img id="c4cp0sfc_10_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Les modules de portes (         14) assurent la gestion du fonctionnement des vitres et des rétroviseurs.</div><div class="par">Une sonde, mesurant la température de l’air extérieur, est implantée dans le rétroviseur conducteur.</div><div class="par">Les modules de portes sont commandés par le BSI via le réseau     VAN CAR 2.</div><div class="cha2"><div class="sti2">4.3. Calculateur de toit ouvrant</div></div>
+<div id="c5ip037d_11_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/7d/c5ip/c5ip037d.avif" class="image" height="360" width="615" id="c5ip037d_11"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">c5ip037d</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/7d/c5ip/c5ip037d.avif" data-figure="1"><img id="c5ip037d_11_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Le calculateur de toit ouvrant (   15) pilote le motoréducteur (16) en fonction des différentes commandes manuelles ou automatiques, communique avec le BSI via le réseau VAN CAR 2.</div><div class="par">Le motoréducteur assure les mouvements du panneau mobile.</div><div class="cha2"><div class="sti2">4.4. Calculateur d’alarme antieffraction</div></div>
+<div id="c4cp0sgc_12_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/gc/c4cp/c4cp0sgc.avif" class="image" height="300" width="300" id="c4cp0sgc_12"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">c4cp0sgc</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/gc/c4cp/c4cp0sgc.avif" data-figure="1"><img id="c4cp0sgc_12_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Le calculateur d’alarme antieffraction (     17) assure les fonctions suivantes : 
+<ul>
+<li>Protection volumétrique à l’aide de capteurs volumétriques à ultra sons</li>
+<li>Protection périmétrique à l’aide des informations sur l’état des ouvrants données par le BSI</li>
+</ul>
+</div>
+<div class="par">Le calculateur d’alarme antieffraction est fixé sous la planche de bord, derrière le vide-poches du conducteur.</div><div class="par">Si la sirène de l’alarme est fixée sur la doublure d’aile arrière gauche, les fixations sont accessibles de l’intérieur du coffre.</div><div class="cha1"><div class="sti1">5. Calculateurs du réseau     VAN CONFORT</div></div>
+<div class="cha2"><div class="sti2">5.1. Combiné </div></div>
+<div id="c5fp0cwp_13_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/wp/c5fp/c5fp0cwp.avif" class="image" height="720" width="615" id="c5fp0cwp_13"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">c5fp0cwp</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/wp/c5fp/c5fp0cwp.avif" data-figure="1"><img id="c5fp0cwp_13_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Légende : 
+<ul>
+<li>   (A) Combiné de niveau 1 avec boîte de vitesses manuelle</li>
+<li>(B) Combiné de niveau 2 et 3 avec boîte de vitesses manuelle</li>
+<li>(C) Combiné de niveau 1, 2 et 3 avec boîte de vitesses automatique</li>
+</ul>
+</div>
+<div class="tli">Le combiné est composé des éléments suivants : 
+<ul>
+<li>Voyants d’alerte et d’information</li>
+<li>Compteurs et indicateurs   (indication de niveaux, températures, vitesse, ...)</li>
+<li>Afficheur à cristaux liquides incluant des indicateurs de maintenance et de niveau d’huile et des odomètres</li>
+<li>Contacteurs de réglage (luminosité, remise à zéro de l’odomètre partiel, etc...)</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">5.2. Écran multifonction </div></div>
+<div id="d4ap01qp_14_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/qp/d4ap/d4ap01qp.avif" class="image" height="720" width="615" id="d4ap01qp_14"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ap01qp</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/qp/d4ap/d4ap01qp.avif" data-figure="1"><img id="d4ap01qp_14_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Légende : 
+<ul>
+<li>   (D) Écran multifonction de type "A"</li>
+<li>(E) Écran multifonction de type "B"</li>
+<li>(F) Écran multifonction de type "C"</li>
+<li>(G) Écran multifonction de type "D"</li>
+</ul>
+</div>
+<div class="tli">L’écran multifonction assure les fonctions suivantes : 
+<ul>
+<li>Information du conducteur sur les éléments extérieurs au système   (date, heure, température extérieure)</li>
+<li>Information du conducteur sur les éléments internes au système (autodiagnostic, ordinateur de bord)</li>
+<li>Pilotage de l’autoradio et gestion de son affichage (*)</li>
+<li>Pilotage du changeur CD et gestion de son affichage (*)</li>
+<li>Pilotage du système de navigation et gestion de son affichage (*)</li>
+<li>Pilotage du radiotéléphone et gestion de son affichage (*)</li>
+</ul>
+</div>
+<div class="par">  (*) Selon équipement.</div><div class="par">Il existe   4 écrans multifonctions différents (de type "A", "B", "C" et "D"), gérant l’affichage de différents équipements et fonctions, selon le niveau de finition du véhicule.</div><div class="cha2"><div class="sti2">5.3. Calculateur d’aide au stationnement</div></div>
+<div id="c5jp07td_15_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/td/c5jp/c5jp07td.avif" class="image" height="360" width="615" id="c5jp07td_15"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">c5jp07td</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/td/c5jp/c5jp07td.avif" data-figure="1"><img id="c5jp07td_15_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Le calculateur d’aide au stationnement (   18) est implanté dans la doublure d’aile de la roue arrière droite.</div><div class="par">Le calculateur d’aide au stationnement calcule la distance séparant les capteurs de proximité (  19) des obstacles.</div><div class="par">Le calculateur d’aide au stationnement gère la durée d’activation du signal sonore en fonction de la proximité des obstacles et réalise son auto diagnostic.</div><div class="par">Le calculateur d’aide au stationnement reçoit du BSI l’information sur l’enclenchement de la marche arrière pour l’activation de la détection.</div><div class="cha2"><div class="sti2">5.4. Calculateur de réfrigération     RFTA</div></div>
+<div id="c5fp0cxd_16_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/xd/c5fp/c5fp0cxd.avif" class="image" height="360" width="615" id="c5fp0cxd_16"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">c5fp0cxd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/xd/c5fp/c5fp0cxd.avif" data-figure="1"><img id="c5fp0cxd_16_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Le calculateur de réfrigération    RFTA (20) assure les fonctions suivantes : 
+<ul>
+<li>Pilotage du volet de mixage pour la régulation de température</li>
+<li>Pilotage de la vitesse du pulseur pour la régulation en débit</li>
+<li>Pilotage des volets pour la répartition aéraulique</li>
+</ul>
+</div>
+<div class="tli">En mode automatique, le calculateur de réfrigération   RFTA assure la régulation en fonction des paramètres suivants : 
+<ul>
+<li>Température de l’air extérieur</li>
+<li>Température de l’air dans l’habitacle</li>
+<li>Information provenant du capteur d’ensoleillement, donnée par le BSI</li>
+</ul>
+</div>
+<div class="par">Le panneau de commande retransmet les actions de l’utilisateur au BSI.</div><div class="par">Le panneau de commande intègre la commande de la lunette arrière chauffante.</div><div class="cha2"><div class="sti2">5.5. Autoradio </div></div>
+<div id="d5ap017p_17_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/7p/d5ap/d5ap017p.avif" class="image" height="720" width="615" id="d5ap017p_17"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d5ap017p</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/7p/d5ap/d5ap017p.avif" data-figure="1"><img id="d5ap017p_17_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Il existe    3 types d’autoradios.</div><div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Appellation </td>
+<td colspan="1" rowspan="1">Description</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">RB2</td>
+<td colspan="1" rowspan="1">Autoradio avec lecteur cassette de base</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">RD2</td>
+<td colspan="1" rowspan="1">Autoradio avec lecteur CD</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">RT2</td>
+<td colspan="1" rowspan="1">Autoradio équipé d’un radiotéléphone GSM</td>
+</tr></tbody></table>
+</div>
+<div class="tli">Les autoradios partagent les caractéristiques suivantes : 
+<ul>
+<li>Affichage déporté vers l’écran multifonction</li>
+<li>Commande de système audio intégrée au module de commutation sous-volant de direction</li>
+<li>Compatibilité avec un changeur de disques compacts</li>
+</ul>
+</div>
+<div class="par">Sur les autoradios     RT2 et RD2, le volume sonore peut être asservi à la vitesse du véhicule (fonction télécodable via l’outil de diagnostic).</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : L’autoradio   RT2 possède également un afficheur intégré pour réaliser l’affichage de la fonction radiotéléphone. </div></div>
+<div class="cha2"><div class="sti2">5.6. Changeur de disques compacts</div></div>
+<div id="c5gp08dc_18_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/dc/c5gp/c5gp08dc.avif" class="image" height="300" width="300" id="c5gp08dc_18"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">c5gp08dc</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/dc/c5gp/c5gp08dc.avif" data-figure="1"><img id="c5gp08dc_18_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Le changeur de    6 CD (21) est implanté sous le siège avant droit.</div><div class="par">Le changeur CD est commandé par l’écran multifonction.</div><div class="cha2"><div class="sti2">5.7. Calculateur de navigation</div></div>
+<div class="par">Le calculateur de navigation détermine le parcours optimal entre deux points, puis réactualise celui-ci en permanence selon le trajet emprunté par le véhicule.</div><div class="par">Le calculateur de navigation, implanté dans la partie supérieure de la boîte à gants, travaille soit en temps réel, soit en temps masqué.</div><div class="par">Le calculateur de navigation découpe l’itinéraire en plusieurs segments et les traite au fur et à mesure.</div><div class="par">Les données cartographiques utilisées par la calculateur de navigation sont stockées sur un CD-ROM réalisé et mis à jour par la société Navigation Technologies.</div><div class="cha1"><div class="sti1">6. Diagnostic </div></div>
+<div class="par">Dans une architecture multiplexée, plusieurs calculateurs sont reliés entre eux par un réseau de communication et échangent les informations nécessaires à leur fonctionnement.</div><div class="par">Un véhicule multiplexé n’est plus composé de systèmes indépendants les uns des autres, mais d’un ensemble de systèmes interdépendants   . La réalisation de chaque fonction client est ainsi répartie entre plusieurs calculateurs.</div><div class="tli">Pour le diagnostic en après-vente, cette nouvelle architecture a les conséquences suivantes : 
+<ul>
+<li>La défaillance d’un composant peut avoir des effets multiples et entraîner l’apparition simultanée de codes défauts dans la mémoire de plusieurs calculateurs</li>
+<li>Un effet client ou un code défaut peuvent être dus à un très grand nombre de causes possibles</li>
+</ul>
+</div>
+<div class="tli">Nouvelles méthodes de diagnostic intégrées dans les outils de diagnostic     LEXIA et PROXIA (dès le chargement du CD 17) : 
+<ul>
+<li>Raisonnement à base de modèles (DIAGSYS)</li>
+<li>Arbres de diagnostics</li>
+<li>Raisonnement à base de cas (Case Based Reasoning ou CBR)</li>
+</ul>
+</div>
+<div class="par">Les nouvelles méthodes de diagnostic offrent un niveau de prestation performant et adapté au contexte technologique du multiplexage.</div><div class="par">Les nouvelles méthodes de diagnostic permettent une recherche de panne simple, rapide et efficace, faisant appel à une démarche de diagnostic guidée (la bonne méthode au bon moment).</div><div class="tli">Fonctions supplémentaires intégrées aux outils de diagnostic, de manière à rendre leur utilisation plus performante : 
+<ul>
+<li>Principes de fonctionnement</li>
+<li>Fonction trace</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">6.1. Raisonnement à base de modèles       (DIAGSYS)</div></div>
+<div class="tli">Les modèles décrivent : 
+<ul>
+<li>La manière dont les calculateurs dialoguent entre eux par l’intermédiaire du réseau de communication</li>
+<li>La manière dont chacun de ces calculateurs participe à la réalisation des fonctions clients</li>
+</ul>
+</div>
+<div class="par">Les modèles permettent de discriminer, parmi tous les systèmes, celui qui est réellement à l’origine d’une défaillance.</div><div class="cha2"><div class="sti2">6.2. Arbres de diagnostics</div></div>
+<div class="tli">Fonctions assurées par les arbres de diagnostic : 
+<ul>
+<li>Localisation précise de la défaillance à l’origine du dysfonctionnement observé (composant défectueux, fil coupé, ...)</li>
+<li>Traitement des informations provenant des calculateurs ou de la carte de mesures physiques et prise automatique des décisions adaptées, orientant ainsi la recherche de panne</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">6.3. Raisonnement à base de cas (Case Based Reasoning ou CBR)</div></div>
+<div class="par">Le raisonnement à base de cas (CBR) permet une réutilisation "intelligente", directement dans l’outil de diagnostic, du retour d’expérience de PSA (base des incidents avec remèdes).</div><div class="par">Le CBR permet de retrouver, simplement et rapidement, dans une base de cas connus, le ou les cas se rapprochant le plus d’un effet client observé sur un véhicule.</div><div class="cha2"><div class="sti2">6.4. Principes de fonctionnement</div></div>
+<div class="par">Des principes de fonctionnement sont disponibles dans les outils de diagnostic.</div><div class="par">Les principes de fonctionnement permettent de se remémorer, rapidement et sans recherche dans la documentation technique, le fonctionnement du système sur lequel l’opérateur travaille.</div><div class="par">Grâce à ces principes de fonctionnement, il est possible de comprendre facilement la démarche de diagnostic guidée qui est proposée par l’outil.</div><div class="cha2"><div class="sti2">6.5. Fonction trace</div></div>
+<div class="par">La fonction trace permet de mémoriser, étape par étape, toutes les opérations effectuées à l’aide de l’outil de diagnostic, au cours d’une session de diagnostic.</div><div class="tli">La fonction trace rend possible une remontée simple et complète des informations (du réseau vers l’après-vente CITROËN) : 
+<ul>
+<li>Soit pour la mise à jour de la base de cas utilisée par le CBR</li>
+<li>Soit pour une utilisation dans le cadre de l’assistance technique</li>
+</ul>
+</div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Il est indispensable d’être équipé d’un outil                  LEXIA ou PROXIA pour effectuer correctement le diagnostic d’un véhicule multiplexé. </div></div>
+<div class="tli">Les calculateurs suivants possèdent un diagnostic embarqué : 
+<ul>
+<li>BSI </li>
+<li>Combiné/écran multifonction</li>
+<li>Autoradio </li>
+<li>Changeur CD</li>
+<li>Réfrigération à régulation automatique (RFTA)</li>
+<li>Aide à la conduite (guidage par satellite)</li>
+<li>Contrôle moteur </li>
+<li>ABS </li>
+<li>Coussins gonflables</li>
+</ul>
+</div>
+</div>

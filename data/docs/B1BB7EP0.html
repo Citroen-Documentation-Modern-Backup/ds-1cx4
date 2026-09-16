@@ -1,0 +1,597 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">B1BB7EP0</td><td class="title">Présentation : Moteur HPi 16 (EW10D)</td></tr></tbody></table></div><div id="appl" class="section_appl"></div><div class="section_corps" id="content"><div class="cha1"><div class="sti1">1. Architecture principale du moteur </div></div>
+<div class="par">Nouvelle motorisation  : Moteur HPi 16 (EW10D).</div><div class="par">HPi : High Pressure injection, injection directe essence haute pression.</div><div class="par">Le moteur     EW10D dérivé de la famille des moteurs EW fonctionne avec une injection directe essence haute pression.</div><div class="tli">Ce système d’injection apporte les améliorations suivantes : 
+<ul>
+<li>Une diminution de la consommation en carburant   (- 10% par rapport aux moteurs EW et - 19 % par rapport aux moteurs XU10)</li>
+<li>Une puissance maximale moteur accrue</li>
+<li>Un couple moteur accru</li>
+</ul>
+</div>
+<div class="tli">Le moteur HPi utilise plusieurs modes de fonctionnement : 
+<ul>
+<li>Fonctionnement à mélange air/essence très pauvre et stratifié   (nouveau)</li>
+<li>Fonctionnement à mélange air/essence homogène (identique aux moteurs actuels)</li>
+</ul>
+</div>
+<div class="par">Le nouveau mode de fonctionnement moteur permet des gains importants de consommation de carburant en roulage urbain.</div><div class="par">Le moteur HPi est équipé d’un système antipollution permettant de stocker et d’éliminer les oxydes d’azote (déNOX)     (nouveau).</div><div class="tli">Particularités : 
+<ul>
+<li>  4 cylindres en ligne, 16 soupapes</li>
+<li>Double arbres à cames en tête entraînés par courroie crantée</li>
+<li>Base moteur : Identique à la version moteur EW10J4 (carter-cylindres - attelage mobile)</li>
+<li>Taux de compression élevé</li>
+<li>Système d’injection multipoints SIEMENS SIRIUS 81</li>
+<li>Injection directe essence et chambre de combustion spécifique (culasse et pistons spécifiques)</li>
+<li>Admission d’air spécifique</li>
+<li>Gestion de l’air admis par un boîtier papillon motorisé (moteur électrique commandé par le calculateur d’injection)</li>
+<li>Pompe haute pression carburant  (entraînement par l’arbre à cames d’admission)</li>
+<li>Rampe d’injection haute pression carburant commune aux injecteurs essence</li>
+<li>Pression d’injection de carburant variable</li>
+<li>Injecteurs essence implantés dans la culasse</li>
+<li>Arbre à cames d’admission à calage variable (déphaseur d’arbre à cames)</li>
+<li>Recyclage des gaz d’échappement</li>
+<li> précatalyseur</li>
+<li>Catalyseur spécifique permettant la réduction des oxydes d’azote (deNOX)</li>
+</ul>
+</div>
+<div class="tli">Le système d’injection directe HPi permet de tenir compte des exigences des années   2000 relatives aux éléments suivants : 
+<ul>
+<li>Économie de carburant</li>
+<li>Dépollution  (système de diagnostic embarqué)</li>
+<li>Agrément de conduite</li>
+<li>Fiabilité mécanique</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">2. Principe de l’injection directe HPi</div></div>
+<div class="par">Dans un système à injection directe, le carburant est directement injecté dans la tête des pistons.</div><div class="par">L’injection est réalisée à très haute pression grâce à une rampe d’injection commune aux injecteurs électromagnétiques (appellation common rail).</div><div class="tli">La pression d’injection peut atteindre les pressions suivantes : 
+<ul>
+<li>     100 bars à haut régime</li>
+<li>70 bars au ralenti</li>
+<li>30 bars en régime transitoire</li>
+</ul>
+</div>
+<div class="tli">Le moteur HPi utilise plusieurs modes de fonctionnement : 
+<ul>
+<li>Fonctionnement à mélange air/essence très pauvre et stratifié   (nouveau)</li>
+<li>Fonctionnement à mélange air/essence homogène (identique aux moteurs actuels)</li>
+</ul>
+</div>
+<div class="tli">Fonctionnement à mélange air/essence très pauvre et stratifié   (nouveau) : 
+<ul>
+<li>Ce mode de fonctionnement est utilisé lorsque les performances demandées par le conducteur sont faibles (richesse entre 0,2 et 0,6)</li>
+<li>La combustion est effectuée avec un excès d’air (mélange pauvre)</li>
+<li>L’injection du carburant s’effectue juste avant l’allumage et pendant la phase de compression</li>
+<li>Charge moteur commandée par le temps d’injection</li>
+<li>La combinaison du tourbillon d’air et du carburant dans la tête du piston crée un mélange stratifié (couches successives de carburant et d’air dans la chambre de combustion)</li>
+<li>Le papillon est ouvert au maximum, alors que la pédale d’accélérateur n’est pas enfoncé au maximum</li>
+</ul>
+</div>
+<div class="tli">Fonctionnement à mélange air/essence homogène : 
+<ul>
+<li>Ce mode de fonctionnement est utilisé pour obtenir les performances maximales du moteur   (richesse à environ 1)</li>
+<li>L’injection du carburant s’effectue pendant la course d’admission afin d’obtenir un mélange homogène air/essence</li>
+<li>Charge moteur commandée par le boîtier papillon</li>
+<li>Fonctionnement proche d’un moteur à injection indirecte</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">3. Consignes de sécurité</div></div>
+<div class="tli">Toutes les interventions sur le système d’injection doivent être effectuées conformément aux prescriptions et réglementations suivantes : 
+<ul>
+<li>Autorités compétentes en matière de santé</li>
+<li>Prévention des accidents</li>
+<li>Protection de l’environnement</li>
+</ul>
+</div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Les interventions doivent être effectuées par du personnel spécialisé informé des consignes de sécurité et des précautions à prendre. </div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Compte-tenu des pressions très élevées régnant dans le circuit haute pression carburant (     100 bars), respecter les consignes ci-dessous. </div></div>
+<div class="par">Interdiction de fumer à proximité immédiate du circuit haute pression lors d’intervention.</div><div class="par">Éviter de travailler à proximité de flamme ou d’étincelles.</div><div class="tli"> moteur tournant : 
+<ul>
+<li>Ne pas intervenir sur le circuit haute pression carburant</li>
+<li>Rester toujours hors de portée d’un éventuel jet de carburant pouvant provoquer des blessures sérieuses</li>
+<li>Ne pas approcher la main près d’une fuite sur le circuit haute pression carburant</li>
+<li>Après l’arrêt du moteur, attendre 30 secondes avant toute intervention</li>
+<li>Faire chuter la pression résiduelle dans le circuit d’alimentation basse pression par la valve SCHRADER</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : L’attente de   30 secondes est nécessaire au retour à une pression d’environ 5 bars du circuit haute pression carburant. </div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Les injecteurs essence sont commandés par une tension de   77 volts, ne pas intervenir sur le faisceau électrique moteur tournant. </div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Compte tenu de la présence de tension élevée aux bornes du calculateur et des injecteurs essence, les éventuelles mesures de tension doivent être réalisés avec le matériel préconisé. </div></div>
+<div class="cha1"><div class="sti1">4. Caractéristiques</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Code moteur</td>
+<td colspan="1" rowspan="1">   EW10D</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Type réglementaire moteur</td>
+<td colspan="1" rowspan="1">RLZ</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Nombre de cylindres</td>
+<td colspan="1" rowspan="1">4</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Alésage x course (mm)</td>
+<td colspan="1" rowspan="1">85 x 88</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Cylindrée (cm3)</td>
+<td colspan="1" rowspan="1">1998</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Rapport volumétrique</td>
+<td colspan="1" rowspan="1">11,4</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Puissance maxi (C.E.E)</td>
+<td colspan="1" rowspan="1">103 kW</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Puissance maxi (ch DIN)</td>
+<td colspan="1" rowspan="1">143 ch</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Régime puissance maxi</td>
+<td colspan="1" rowspan="1">6000 tr/mn</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Couple maxi (C.E.E)</td>
+<td colspan="1" rowspan="1">19,2 m.daN</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Régime couple maxi</td>
+<td colspan="1" rowspan="1">4100 tr/mn</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Système d’injection </td>
+<td colspan="1" rowspan="1">Injection multipoints à haute pression</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Marque </td>
+<td colspan="1" rowspan="1">SIEMENS</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Type </td>
+<td colspan="1" rowspan="1">SIRIUS 81</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><div class="sti1">5. Ensemble carter-cylindres</div></div>
+<div class="par">Carter-cylindres  (identique à celui du moteur EW10J4).</div><div class="par">Le carter-cylindres en alliage d’aluminium est équipé de chemises en fonte insérées à la coulée (fonderie).</div><div class="par">Les chemises sont de type sèches et sont inamovibles.</div><div class="par">Le carter chapeaux de paliers de vilebrequin en alliage d’aluminium, intègre les       5 chapeaux de paliers en fonte.</div><div class="tli">Particularités : 
+<ul>
+<li>Alésage   : 85 mm </li>
+<li>Nombre de paliers  : 5</li>
+<li>Le bouchon de vidange du liquide de refroidissement est implanté sur la face arrière</li>
+</ul>
+</div>
+<div class="tli">L’étanchéité entre les éléments suivants est effectuée avec de la pâte à joint : 
+<ul>
+<li>Carter-cylindres </li>
+<li>Carter chapeaux de paliers de vilebrequin</li>
+<li>Carter d’huile moteur</li>
+<li>Pompe à huile moteur</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">6. Attelage mobile</div></div>
+<div id="b1cp086d_1_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/6d/b1cp/b1cp086d.avif" class="image" height="360" width="615" id="b1cp086d_1"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1cp086d</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/6d/b1cp/b1cp086d.avif" data-figure="1"><img id="b1cp086d_1_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   (1) Vilebrequin .</div><div class="par">  (2) Segment coupe feu.</div><div class="par">  (3) Segment d’étanchéité .</div><div class="par">  (4) Segment racleur avec son ressort.</div><div class="par">  (5) Piston.</div><div class="par">  (6) Axe de piston .</div><div class="par">  (7) Bielle.</div><div class="par">  (8) Demi-coussinets de tête de bielle.</div><div class="par">  (9) Demi-coussinets inférieurs.</div><div class="par">  (10) Demi-coussinets supérieurs des paliers 1 et 5.</div><div class="par">  (11) Cales  de jeu latéral de vilebrequin.</div><div class="par">  (12) Demi-coussinets supérieurs.</div><div class="par">"  a" : Trou de graissage.</div><div class="cha2"><div class="sti2">6.1. Vilebrequin </div></div>
+<div class="tli">Vilebrequin  (identique à celui du moteur EW10J4) : 
+<ul>
+<li>Matière : Fonte</li>
+<li>Contre-masses allégées</li>
+<li>Nombre de paliers  : 5</li>
+<li>Étanchéités de vilebrequin par joint à lèvres</li>
+</ul>
+</div>
+<div class="tli">Jeu latéral de vilebrequin : 
+<ul>
+<li>Le jeu latéral doit être compris entre   0,06 et 0,15 mm</li>
+<li>Le jeu latéral se règle par 2 demi-cales sur le palier N°2 (2 côté carter-cylindres)</li>
+<li>Une seule classe d’épaisseur de cale</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">6.2. Demi-coussinets de vilebrequin</div></div>
+<div class="par">La ligne d’arbre (carter-cylindres + chapeaux de paliers) et les paliers de vilebrequin sont appairés par repères sur le carter-cylindres et le vilebrequin.</div><div class="par">L’appairage est effectué à l’aide de    4 classes de demi-coussinets lisses.</div><div class="par">Le choix du demi-coussinet approprié doit être effectué avec un tableau d’appariement   (voir opération correspondante).</div><div class="par">Demi-coussinets lisses   (côté carter chapeaux de paliers de vilebrequin).</div><div class="par">Demi-coussinets rainurés   (côté carter-cylindres).</div><div class="par">Demi-coussinets supérieurs des paliers   1 et 5 : Épaisseur spécifique.</div><div class="cha2"><div class="sti2">6.3. Bielles</div></div>
+<div class="tli">Particularités : 
+<ul>
+<li>Matière  : Acier forgé</li>
+<li>Entraxe : 139 mm </li>
+<li>Les demi-coussinets de tête de bielles sont lisses</li>
+<li>Les demi-coussinets sont équipés d’un ergot de positionnement</li>
+<li>Nombre de classes de poids : 4</li>
+<li>Assemblage bielle-chapeau de bielle :  vis  </li>
+</ul>
+</div>
+<div class="par">Les bielles sont percées de manière à favoriser le graissage du bas de chemise.</div><div class="cha2"><div class="sti2">6.4. Demi-coussinets de bielles</div></div>
+<div class="par">Les têtes de bielles et les manetons de vilebrequin sont appairés.</div><div class="par">L’appairage est effectué à l’aide de      3 classes de demi-coussinets lisses (demi-coussinets inférieurs).</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Il n’y a qu’une seule classe pour les demi-coussinets supérieurs. </div></div>
+<div class="par">Le choix du demi-coussinet approprié doit être effectué avec un tableau d’appariement     (voir opération correspondante).</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Les demi-coussinets de tête de bielle sont percés   (supérieur et inférieur). </div></div>
+<div class="cha2"><div class="sti2">6.5.  pistons</div></div>
+<div id="b1cp087d_2_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/7d/b1cp/b1cp087d.avif" class="image" height="360" width="615" id="b1cp087d_2"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1cp087d</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/7d/b1cp/b1cp087d.avif" data-figure="1"><img id="b1cp087d_2_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   (2) Segment coupe feu.</div><div class="par">  (3) Segment d’étanchéité .</div><div class="par">  (4) Segment racleur .</div><div class="par">  (5) Piston.</div><div class="par">  (13) Bougie d’allumage .</div><div class="par">  (14) Injecteur essence.</div><div class="par">"  b" : Carburant .</div><div class="tli">Particularités : 
+<ul>
+<li>Forme spécifique à l’injection directe essence</li>
+<li>Piston en alliage d’aluminium étamé</li>
+<li>Jupe   : Graphitée (partiellement)</li>
+</ul>
+</div>
+<div class="tli">Axes de pistons : 
+<ul>
+<li>Diamètre  : 21 mm </li>
+<li>Les axes de pistons sont montés serrés dans les bielles, et libres dans les pistons</li>
+</ul>
+</div>
+<div class="tli">La forme du piston et les conduits d’admission permettent les fonctionnements suivants : 
+<ul>
+<li>Arrivée du carburant vers la bougie pour permettre sa combustion lors des phases d’injection en mélange pauvre</li>
+<li>Réalisation du tourbillon nécessaire au mélange air/carburant</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">6.6. Segments</div></div>
+<div class="tli">Chaque piston comporte les    3 segments suivants : 
+<ul>
+<li>Segment coupe feu (épaisseur 1,2 mm)</li>
+<li>Segment d’étanchéité  (épaisseur 1,5 mm)</li>
+<li>Segment racleur  (épaisseur 2,5 mm) (type U-Flex)</li>
+</ul>
+</div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Un grand soin doit être apporté lors de la remise en place d’un piston équipé de ses segments. </div></div>
+<div class="cha2"><div class="sti2">6.7. Volant moteur</div></div>
+<div class="par">Matière    : Fonte.</div><div class="par">Diamètre de friction   : 230 mm .</div><div class="par">Le volant moteur comprend sur sa périphérie   60 dents dont 2 ont été supprimées afin de déterminer le Point Mort Haut.</div><div class="par">L’attelage mobile peut être immobilisé par un perçage prévu dans le volant moteur et dans le carter-cylindres   (face échappement).</div><div class="par">L’immobilisation du volant moteur s’effectue avec un outil spécifique   OUT C0189.C.</div><div class="cha2"><div class="sti2">6.8. Poulie d’entraînement d’accessoires</div></div>
+<div class="tli">Particularités : 
+<ul>
+<li>Fixation sur vilebrequin par  4 vis sur moyeu de vilebrequin</li>
+<li>Moyeu amorti avec étage de découplage en torsion</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">7. Ensemble culasse</div></div>
+<div id="b1dp198p_3_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/8p/b1dp/b1dp198p.avif" class="image" height="720" width="615" id="b1dp198p_3"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1dp198p</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/8p/b1dp/b1dp198p.avif" data-figure="1"><img id="b1dp198p_3_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   (5) Piston.</div><div class="par">  (13) Bougie d’allumage .</div><div class="par">  (14) Injecteur essence.</div><div class="par">  (15) Cache-style moteur.</div><div class="par">  (16) Couvre-culasse.</div><div class="par">  (17) Cale élastique.</div><div class="par">  (18) Répartiteur d’admission d’air.</div><div class="par">  (19) Rampe alimentation injecteur.</div><div class="par">  (20) Carter-cylindres .</div><div class="par">  (21) Boîtier bobines compact .</div><div class="par">  (22) Joint de culasse.</div><div class="par">  (23) Culasse.</div><div class="par">  (24) Soupape.</div><div class="par">  (25)  poussoir hydraulique.</div><div class="par">  (26) Linguet à rouleaux.</div><div class="par">  (27) Arbres à cames.</div><div class="par">  (28) Carter chapeaux de paliers d’arbres à cames.</div><div class="par">  (29) Joint d’étanchéité  : Couvre-culasse - Puits à bougies d’allumage.</div><div class="par">  (30) Joint d’étanchéité  : Couvre-culasse - Carter chapeaux de paliers d’arbres à cames.</div><div class="par">"  c" : Orifice de remplissage d’huile moteur.</div><div class="par">"  d" : Logement de pompe haute pression carburant.</div><div class="par">"  e" : Puits à bougies d’allumage.</div><div class="cha2"><div class="sti2">7.1. Couvre-culasse</div></div>
+<div class="par">Matière  : Magnésium.</div><div class="par">Le joint d’étanchéité est préformé et déposable.</div><div class="cha2"><div class="sti2">7.2. Carter chapeaux de paliers d’arbres à cames</div></div>
+<div class="par">Matière    : Alliage d’aluminium.</div><div class="par">Étanchéité entre carter chapeaux de palier d’arbre à cames et culasse   : Pâte à joint.</div><div class="par">Le calage latéral de l’arbre à cames est réalisé sur le palier N°  3 (palier N°1, côté volant moteur).</div><div class="par">Une partie de la canalisation d’admission d’air est intégrée dans le carter chapeaux de palier d’arbres à cames.</div><div class="cha2"><div class="sti2">7.3.  arbre à cames</div></div>
+<div class="par">Les nouveaux arbres à cames sont en fonte et comportent  8 cames et 5 paliers.</div><div class="par">La cible pour le capteur d’arbre à cames est implantée sur l’arbre à cames échappement   (cible à 4 tops).</div><div class="par">Les paliers d’arbres à cames sont lubrifiés sous pression et les cames par bain d’huile.</div><div class="par">L’arbre à cames d’admission entraîne la pompe haute pression carburant.</div><div class="cha2"><div class="sti2">7.4. Poussoirs hydrauliques     - Linguets à rouleaux</div></div>
+<div class="par">Les arbres à cames attaquent les linguets à rouleaux.</div><div class="par">La compensation d’usure est réalisée par les poussoirs hydrauliques.</div><div class="cha2"><div class="sti2">7.5.  soupapes</div></div>
+<div class="par">Soupape d’admission  : Diamètre  : 32,4 mm .</div><div class="par">Soupape d’échappement   : Diamètre  : 29,2 mm .</div><div class="par">Queue de soupapes   : Diamètre  : 6 mm .</div><div class="par">Joint de queue de soupape à coupelle intégrée.</div><div class="tli">Particularités     - Ressorts de soupapes : 
+<ul>
+<li>Forme conique</li>
+<li>Repérage : Peinture verte</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">7.6. Culasse</div></div>
+<div class="tli">Particularités : 
+<ul>
+<li> 4 soupapes par cylindre (2 pour l’admission, 2 pour l’échappement) avec rattrapage de jeu par poussoirs hydrauliques</li>
+<li>La forme des conduit d’admission d’air créent un tourbillon nécessaire pour effectuer le mélange air/essence dans la chambre de combustion</li>
+<li>Une partie de la canalisation de recyclage des gaz d’échappement est intégrée à la culasse</li>
+<li>Hauteur de la culasse neuve : 138 mm </li>
+<li>Sièges de soupapes : Acier fritté</li>
+<li>Guide de soupape échappement : Acier fritté</li>
+<li>Guide de soupape admission : Acier fritté</li>
+</ul>
+</div>
+<div class="tli">La dépose de la culasse nécessite la dépose préalable des éléments suivants : 
+<ul>
+<li>Le carter chapeaux de paliers d’arbre à cames</li>
+<li>Les  arbres à cames </li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : La méthode de serrage est de type en escargot   (méthode de serrage spécifique). </div></div>
+<div class="cha2"><div class="sti2">7.7. Joint de culasse</div></div>
+<div class="tli">Particularités : 
+<ul>
+<li>Nombre de classes  : 1</li>
+<li>Épaisseur  : 0,8 mm </li>
+<li>Type  : Joint de culasse métallique multifeuilles (3 feuilles)</li>
+</ul>
+</div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : À la repose d’un joint de culasse, toujours s’assurer que le repère TOP est orienté vers le haut. </div></div>
+<div class="cha2"><div class="sti2">7.8. Alimentation </div></div>
+<div class="par">Les injecteurs injectent le carburant directement dans la tête du piston.</div><div class="par">Un joint spécifique permet l’étanchéité entre les injecteurs essence et la culasse    (joint en téflon).</div><div class="par">Les injecteurs essence (  14) sont coiffés et maintenus par une rampe d’alimentation commune (19) en aluminium (rail).</div><div class="cha2"><div class="sti2">7.9. Allumage </div></div>
+<div class="par">Boîtier bobines compact fixé par vis sur le couvre-culasse.</div><div class="par">Bougies d’allumage spécifiques (   12 pans) disposées en position centrale.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : La dépose des bougies d’allumage nécessite l’emploi d’une clé spécifique (  12 pans) (coffret 0189). </div></div>
+<div class="cha1"><div class="sti1">8. Distribution</div></div>
+<div id="b1ep15pd_4_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/pd/b1ep/b1ep15pd.avif" class="image" height="360" width="615" id="b1ep15pd_4"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1ep15pd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/pd/b1ep/b1ep15pd.avif" data-figure="1"><img id="b1ep15pd_4_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   (31)  vis de fixation .</div><div class="par">  (32) Carter de distribution supérieur .</div><div class="par">  (33) Déphaseur d’arbre à cames d’admission (VTC).</div><div class="par">  (34) Vis de fixation du déphaseur d’arbre à cames sur pignon d’arbre à cames d’admission.</div><div class="par">  (35) Poulie d’arbre à cames d’admission .</div><div class="par">  (36) Galet enrouleur .</div><div class="par">  (37) Pignon de vilebrequin .</div><div class="par">  (38) Pignon de pompe à eau.</div><div class="par">  (39) Galet tendeur dynamique .</div><div class="par">  (40) Poulie d’arbre à cames d’échappement .</div><div class="par">  (41) Carter de distribution inférieur.</div><div class="tli">Le carter de distribution se compose des   2 éléments suivants : 
+<ul>
+<li>Le carter supérieur de distribution (32) (4 points de fixation)</li>
+<li>Le carter inférieur de distribution (41) (5 points de fixation)</li>
+</ul>
+</div>
+<div class="tli">Particularités : 
+<ul>
+<li>Arbre à cames d’admission équipé d’un déphaseur d’arbre à cames</li>
+<li>Poulie d’arbre à cames échappement fixe, équipé d’un amortisseur de vibrations</li>
+<li>Pignon d’entraînement de la courroie de distribution sur vilebrequin flottant</li>
+<li>Tendeur dynamique à ressort   (tension automatique de la courroie de distribution)</li>
+</ul>
+</div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Cette nouvelle disposition entraîne une gamme d’échange de courroie de distribution spécifique   (voir opération correspondante). </div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Ne pas intervenir sur les vis de fixation du pignon d’arbre à cames d’admission lors d’un échange de la courroie de distribution   (gamme de réglage spécifique). </div></div>
+<div class="cha2"><div class="sti2">8.1. Courroie de distribution </div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Type réglementaire moteur</td>
+<td colspan="1" rowspan="1"> RLZ</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Code moteur</td>
+<td colspan="1" rowspan="1">EW10D</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Largeur </td>
+<td colspan="1" rowspan="1">25,4 mm </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Nombre de dents</td>
+<td colspan="1" rowspan="1">143 dents</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Matière</td>
+<td colspan="1" rowspan="1">HSN</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> fournisseur </td>
+<td colspan="1" rowspan="1">GATES</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Inscriptions permettant l’identification</td>
+<td colspan="1" rowspan="1">Inscriptions : Blanches</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Périodicité de remplacement</td>
+<td colspan="1" rowspan="1">Se reporter aux notes d’entretien</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">8.2. Déphaseur d’arbre à cames d’admission (VTC) : Description</div></div>
+<div id="b1ep15qd_5_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/qd/b1ep/b1ep15qd.avif" class="image" height="360" width="615" id="b1ep15qd_5"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1ep15qd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/qd/b1ep/b1ep15qd.avif" data-figure="1"><img id="b1ep15qd_5_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   (33) Déphaseur d’arbre à cames d’admission (VTC).</div><div class="par">  (34) Vis de fixation du déphaseur d’arbre à cames sur pignon d’arbre à cames d’admission.</div><div class="par">  (35) Poulie d’arbre à cames d’admission .</div><div class="par">  (42) Piston.</div><div class="par">  (43) Arbre à cames d’admission.</div><div class="par">  (44) Moyeu du déphaseur d’arbre à cames d’admission (équipé d’une clavette pour l’entraînement de l’arbre à cames).</div><div class="par">  (45) Bouchon .</div><div class="par">"  f" : Encoche de pigeage.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : VTC = variable timing camshaft. </div></div>
+<div class="par">Le déphaseur est fixé sur l’arbre à cames d’admission par une vis creuse.</div><div class="tli">Fonctions du déphaseur d’arbre à cames d’admission : 
+<ul>
+<li>Déphaser l’arbre à cames par rapport à son entraînement dans certaines phases de fonctionnement moteur       (décalage de l’arbre à cames de 20°)</li>
+<li>Adapter le remplissage en air à la charge du moteur</li>
+<li>Améliorer les performances du moteur (particulièrement le couple moteur à bas régime)</li>
+</ul>
+</div>
+<div class="par">La dépose du déphaseur d’arbre à cames nécessite la dépose préalable du bouchon (  45).</div><div class="par">Le déphasage de l’arbre à cames est obtenu par une rampe hélicoïdale de pas imposé et sous l’action d’une pression d’huile.</div><div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Ne pas intervenir sur les vis de fixation du pignon d’arbre à cames d’admission lors d’un échange de la courroie de distribution     (gamme de réglage spécifique). </div></div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Il n’est pas possible de réparer un déphaseur d’arbre à cames. </div></div>
+<div class="cha2"><div class="sti2">8.3. Déphaseur d’arbre à cames d’admission (VTC)   : Fonctionnement</div></div>
+<div id="b1ep15rd_6_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/rd/b1ep/b1ep15rd.avif" class="image" height="360" width="615" id="b1ep15rd_6"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1ep15rd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/rd/b1ep/b1ep15rd.avif" data-figure="1"><img id="b1ep15rd_6_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Flèches    : Sens de circulation de l’huile.</div><div class="par">  A - Électrovanne non alimentée.</div><div class="par">  B - Électrovanne alimentée.</div><div class="par">  (35) Poulie d’arbre à cames d’admission .</div><div class="par">  (42) Piston.</div><div class="par">  (43) Arbre à cames d’admission.</div><div class="par">  (44) Moyeu du déphaseur d’arbre à cames d’admission (équipé d’une clavette pour l’entraînement de l’arbre à cames).</div><div class="par">  (45) Bouchon .</div><div class="par">(  46) et (47) Ressorts de rappel.</div><div class="par">  (48) Vis creuse de déphaseur d’arbre à cames.</div><div class="par">  (49) Électrovanne  de commande du déphaseur d’arbre à cames .</div><div class="par">"  g" : Circuit de retour d’huile (vers le carter d’huile moteur).</div><div class="par">"  h" : Pression d’huile moteur.</div><div class="par">"  j" : Chambre d’huile.</div><div class="tli">Le déphaseur d’arbre à cames est constitué des éléments suivants : 
+<ul>
+<li>Un corps (  33) à denture intérieure</li>
+<li>Un piston (42) qui se déplace sous l’action de la pression d’huile moteur dans le corps (33)</li>
+<li>Un moyeu animé en rotation par le piston (42)</li>
+</ul>
+</div>
+<div class="par">L’arbre à cames est relié au moyeu (  44) par une clavette.</div><div class="tli">  A - Électrovanne non alimentée : 
+<ul>
+<li>Le circuit d’huile du déphaseur d’arbre à cames est en position échappement</li>
+<li>Le piston (42) est plaqué au fond de son logement par l’intermédiaire du ressort (47)</li>
+<li>L’huile présente dans la chambre d’huile "j" s’échappe au travers de la vis (48) et de l’électrovanne (49) vers le retour d’huile "g"</li>
+</ul>
+</div>
+<div class="tli">  B - Électrovanne alimentée : 
+<ul>
+<li>La pression d’huile moteur est acheminée vers la chambre d’huile "j" du déphaseur d’arbre à cames</li>
+<li>Sous la pression d’huile, le piston (42) se déplace</li>
+<li>Le système de denture permet de faire pivoter le moyeu (44) par rapport à la poulie d’arbre à cames (43)</li>
+<li>La position de l’arbre à cames d’admission est modifiée</li>
+</ul>
+</div>
+<div class="par">Le déphaseur d’arbre à cames bascule d’une position à l’autre dans un temps d’environ   1,5 seconde après commande de l’électrovanne (49).</div><div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : À chaque dépose de la vis creuse (  48) procéder à son échange. </div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Il est nécessaire de recaler le déphaseur d’arbre à cames par rapport à la poulie d’arbre à cames à chaque dépose des vis (  34) (voir opération correspondante). </div></div>
+<div class="cha2"><div class="sti2">8.4. Électrovanne  de commande du déphaseur d’arbre à cames </div></div>
+<div id="b1dp199c_7_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/9c/b1dp/b1dp199c.avif" class="image" height="300" width="300" id="b1dp199c_7"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1dp199c</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/9c/b1dp/b1dp199c.avif" data-figure="1"><img id="b1dp199c_7_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   (49) Électrovanne  de commande du déphaseur d’arbre à cames .</div><div class="par">L’électrovanne est directement commandée par le calculateur d’injection.</div><div class="par">L’électrovanne est directement reliée au circuit d’huile moteur.</div><div class="par">Implantation       : Au centre de la culasse à proximité des carters de distribution.</div><div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Lors d’un démontage, veiller à la propreté lors de l’intervention. </div></div>
+<div class="cha2"><div class="sti2">8.5. Poulie d’arbre à cames d’échappement </div></div>
+<div id="b1ep15sc_8_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/sc/b1ep/b1ep15sc.avif" class="image" height="300" width="300" id="b1ep15sc_8"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1ep15sc</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/sc/b1ep/b1ep15sc.avif" data-figure="1"><img id="b1ep15sc_8_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   (40) Poulie d’arbre à cames d’échappement .</div><div class="par">"  k" : Masse métallique.</div><div class="par">"  l" : Caoutchouc .</div><div class="par">"  m" : Point de pigeage.</div><div class="par">L’amortisseur de vibration est un dispositif rapporté sur un pignon fixe classique.</div><div class="par">Ce dispositif permet d’amortir les vibrations dues au fonctionnement moteur et ainsi améliorer la tenue de la courroie.</div><div class="tli">Constitution de l’amortisseur de vibrations : 
+<ul>
+<li>Une masse métallique</li>
+<li>Une bague de maintien sur le pignon fixe</li>
+<li>Un amortisseur en caoutchouc à       6 branches</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Le pigeage de l’arbre à cames est effectué sur le pignon fixe. </div></div>
+<div class="cha2"><div class="sti2">8.6. Pignon de vilebrequin </div></div>
+<div id="b1cp088c_9_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/8c/b1cp/b1cp088c.avif" class="image" height="300" width="300" id="b1cp088c_9"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1cp088c</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/8c/b1cp/b1cp088c.avif" data-figure="1"><img id="b1cp088c_9_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   (37) Pignon de vilebrequin .</div><div class="par">  (50) Flasque.</div><div class="par">"  n" : Clavette intégrée.</div><div class="par">"  p" : Logement de clavette.</div><div class="par">Le pignon d’entraînement de la courroie de distribution (  37) est désolidarisé du flasque (50).</div><div class="par">Vis de vilebrequin non serrée, le pignon (  37) est flottant dans la limite du logement de clavette "p".</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Le flasque est immobilisé sur le vilebrequin par une clavette demi-lune. </div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Cette nouvelle disposition entraîne une gamme d’échange de courroie de distribution spécifique     (voir opération correspondante). </div></div>
+<div class="cha1"><div class="sti1">9. Lubrification</div></div>
+<div class="cha2"><div class="sti2">9.1.  pompe à huile</div></div>
+<div class="par">Identique à celle utilisée sur la motorisation  EW10J4.</div><div class="par">Le graissage sous pression est assuré par une pompe à huile à engrenages intérieurs de type duocentriques   (axe rotor intérieur et axe rotor extérieur).</div><div class="par">La pompe à huile est entraînée en bout de vilebrequin par l’intermédiaire d’une bague serrée entre le vilebrequin et le pignon de distribution.</div><div class="par">Tarage du clapet de décharge     : 6 ± 1 bars.</div><div class="cha2"><div class="sti2">9.2. Capacité d’huile</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Type réglementaire moteur</td>
+<td colspan="1" rowspan="1"> RLZ</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Particularités</td>
+<td colspan="1" rowspan="1">Avec air conditionné</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Sans air conditionné</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">AVEC échange cartouche d’huile</td>
+<td colspan="1" rowspan="1">4,25 litres</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">SANS échange cartouche d’huile</td>
+<td colspan="1" rowspan="1">4 litres</td>
+</tr></tbody></table>
+</div>
+<div class="par">La cartouche d’huile est séparée du carter-cylindres.</div><div class="par">Capacité entre mini et maxi de la jauge     : 1,7 litres.</div><div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Contrôler systématiquement le niveau d’huile à l’aide de la jauge de niveau manuelle. </div></div>
+<div class="par">Périodicité des vidanges     : Se reporter aux notes d’entretien.</div><div class="cha2"><div class="sti2">9.3. Filtre à huile</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1"> -</td>
+<td colspan="1" rowspan="1">Première monte</td>
+<td colspan="1" rowspan="1">Deuxième monte</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Marque </td>
+<td colspan="1" rowspan="1">PURFLUX</td>
+<td colspan="1" rowspan="1">PURFLUX</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Type </td>
+<td colspan="1" rowspan="1">LS304</td>
+<td colspan="1" rowspan="1">LS304</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Capacité d’huile</td>
+<td colspan="2" rowspan="1">0,32 litre</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Clapet de sécurité</td>
+<td colspan="2" rowspan="1">1,5 bar</td>
+</tr></tbody></table>
+</div>
+<div class="par">Périodicité d’échange   : Se reporter aux notes d’entretien.</div><div class="cha2"><div class="sti2">9.4. Vidange moteur</div></div>
+<div class="par">Il est possible de vidanger les moteurs par un dispositif d’aspiration.</div><div class="par">La vidange doit être effectuée à chaud aussitôt après l’arrêt du moteur.</div><div class="par">L’extrémité du guide jauge est évasée permettant de raccorder une canule branchée à un appareil de vidange par aspiration      (diamètre 14 mm).</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Il est toujours possible de vidanger les moteurs en retirant le bouchon de vidange du carter d’huile. </div></div>
+<div class="cha1"><div class="sti1">10. Circuit d’alimentation d’air</div></div>
+<div class="cha2"><div class="sti2">10.1. Circuit d’air</div></div>
+<div id="b1hp1c1d_10_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/1d/b1hp/b1hp1c1d.avif" class="image" height="360" width="615" id="b1hp1c1d_10"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1hp1c1d</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/1d/b1hp/b1hp1c1d.avif" data-figure="1"><img id="b1hp1c1d_10_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">     (16) Couvre-culasse.</div><div class="par">  (17) Cale élastique.</div><div class="par">  (18) Répartiteur d’admission d’air.</div><div class="par">  (23) Culasse.</div><div class="par">  (51) Vanne de recyclage des gaz d’échappement (E.G.R).</div><div class="par">  (52) Tube de recyclage des gaz d’échappement.</div><div class="par">  (53) Patte support : Répartiteur d’admission d’air.</div><div class="par">  (54) Boîtier papillon  (alliage d’aluminium).</div><div class="par">  (55) Patte support : Répartiteur d’admission d’air.</div><div class="tli">Particularités : 
+<ul>
+<li>Répartiteur d’admission d’air   : Alliage d’aluminium</li>
+<li>Maintien du répartiteur d’admission d’air par des pattes support (53) et (55)</li>
+<li>Boîtier papillon  : Commande par moteur électrique</li>
+<li>Piquage pour canalisation de recyclage de gaz d’échappement</li>
+</ul>
+</div>
+<div class="par">La cale élastique (  17) est réutilisable après démontage (après nettoyage des faces d’appui).</div><div class="par">En fonctionnement à mélange pauvre (boîtier papillon ouvert) la dépression nécessaire à l’amplificateur de freinage peut être insuffisante.</div><div class="par">Un capteur de pression fixé sur l’amplificateur de freinage permet d’informer le calculateur d’injection du manque de dépression et de provoquer la fermeture du papillon d’air.</div><div class="cha2"><div class="sti2">10.2. Boîtier papillon motorisé </div></div>
+<div id="b1hp1c2d_11_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/2d/b1hp/b1hp1c2d.avif" class="image" height="360" width="615" id="b1hp1c2d_11"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1hp1c2d</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/2d/b1hp/b1hp1c2d.avif" data-figure="1"><img id="b1hp1c2d_11_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   (56) Papillon d’air.</div><div class="par">  (57) Moteur électrique.</div><div class="par">  (58) Pignon du moteur électrique.</div><div class="par">  (59) Pignon d’entraînement du papillon d’air.</div><div class="tli">Particularités : 
+<ul>
+<li>Matière   : Alliage d’aluminium</li>
+<li>Ouverture du papillon d’air commandé par un moteur électrique</li>
+<li>Diamètre  : 60 mm </li>
+</ul>
+</div>
+<div class="par">La demande d’ouverture du papillon d’air n’est plus une commande directe par câble en liaison avec la pédale d’accélérateur.</div><div class="par">Un capteur pédale d’accélérateur traduit au calculateur d’injection la demande du conducteur     (sous le compartiment moteur).</div><div class="par">Le calculateur d’injection commande ensuite le moteur du boîtier papillon.</div><div class="par">Un potentiomètre intégré au boîtier papillon permet au calculateur d’injection de déterminer la position exacte du papillon d’air.</div><div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Il est nécessaire de procéder à un apprentissage des positions du papillon après échange du calculateur d’injection ou du boîtier papillon       (se reporter au principe de fonctionnement). </div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Ne pas tenter de régler ou démonter un boîtier papillon (sécurité). </div></div>
+<div class="cha2"><div class="sti2">10.3. Collecteur d’échappement   -  précatalyseur</div></div>
+<div id="b1jp02xd_12_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/xd/b1jp/b1jp02xd.avif" class="image" height="360" width="615" id="b1jp02xd_12"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1jp02xd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/xd/b1jp/b1jp02xd.avif" data-figure="1"><img id="b1jp02xd_12_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   (60) Écran thermique échappement.</div><div class="par">  (61) Collecteur des gaz d’échappement.</div><div class="par">  (62)  bride .</div><div class="par">  (63) Sonde de température des gaz d’échappement (en amont du précatalyseur).</div><div class="par">  (64) Sonde lambda  (en amont du précatalyseur).</div><div class="par">  (65) Écran thermique précatalyseur.</div><div class="par">  (66) Collier de maintien précatalyseur.</div><div class="par">  (67) Patte support.</div><div class="par">  (68)  précatalyseur.</div><div class="par">  (69) Sonde de température des gaz d’échappement (en aval du précatalyseur).</div><div class="par">  (70) Tube de recyclage des gaz d’échappement.</div><div class="par">Collecteur des gaz d’échappement   : Acier.</div><div class="par">L’inertie thermique réduite du collecteur d’échappement permet un réchauffement rapide du pot catalytique lors d’un démarrage à froid.</div><div class="tli">Particularités : 
+<ul>
+<li>L’écran thermique (    60) assure l’étanchéité entre le collecteur d’échappement et la culasse (joint intégré)</li>
+<li>Le précatalyseur est maintenu sur le moteur par un collier (66) et une patte support (67)</li>
+</ul>
+</div>
+<div class="tli">Un joint métallique assure l’étanchéité entre les éléments suivants : 
+<ul>
+<li>Collecteur des gaz d’échappement   -  précatalyseur</li>
+<li>Tube de recyclage des gaz d’échappement - Collecteur des gaz d’échappement</li>
+</ul>
+</div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Gamme de montage et de serrage précatalyseur spécifique   (voir opération correspondante). </div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Toujours remonter des joints neufs après intervention   (norme de dépollution EOBD). </div></div>
+<div class="cha2"><div class="sti2">10.4.  précatalyseur (nouveau)</div></div>
+<div class="par">Le précatalyseur permet de favoriser la montée en température des gaz d’échappement et permet une mise en action plus rapide du catalyseur.</div><div class="tli">Éléments rapportés sur le précatalyseur : 
+<ul>
+<li>Sonde lambda proportionnelle    (nouvelle)</li>
+<li>Sonde de température des gaz d’échappement (en amont du précatalyseur) (nouvelle)</li>
+<li>Sonde de température des gaz d’échappement (en aval du précatalyseur) (nouvelle)</li>
+</ul>
+</div>
+<div class="par">La sonde lambda implantée sur le précatalyseur consomme un courant proportionnel à la richesse des gaz qui est mesurée par le calculateur d’injection   (se reporter au principe de fonctionnement).</div><div class="tli">Les sondes de température des gaz d’échappement permettent : 
+<ul>
+<li>De mesurer l’efficacité du précatalyseur   (norme de dépollution EOBD)</li>
+<li>De déterminer la quantité d’oxydes d’azote stockés dans le pot catalytique</li>
+</ul>
+</div>
+<div class="par">La sonde de température des gaz d’échappement en aval du précatalyseur intervient dans les stratégies de stockage et déstockage des oxydes d’azote.</div><div class="cha2"><div class="sti2">10.5. Catalyseur </div></div>
+<div class="par">En fonctionnement à mélange pauvre le moteur HPi crée plus d’oxydes d’azote qu’un moteur à injection indirecte.</div><div class="par">Le moteur est équipé d’un pot catalytique de nouvelle génération permettant de stocker puis déstocker (éliminer) les oxydes d’azote.</div><div class="tli">Constitution d’un pot catalytique : 
+<ul>
+<li>Une enveloppe en acier inoxydable</li>
+<li>Un isolant thermique</li>
+<li>Un monolithe céramique en nid d’abeille imprégné de métaux précieux</li>
+</ul>
+</div>
+<div class="tli">Traitement des oxydes d’azote        : Le pot catalytique permet de réaliser les opérations suivantes (phénomène chimique) : 
+<ul>
+<li>Stocker les oxydes d’azote sous forme de nitrates lorsque le moteur fonctionne à mélange pauvre (les nitrates sont retenus par les métaux précieux)</li>
+<li>Transformer les nitrates en azote par apport d’hydrocarbures (le moteur fonctionne à mélange riche pendant 3 secondes environ)</li>
+</ul>
+</div>
+<div class="tli">Le calculateur d’injection détermine la quantité d’oxydes d’azote stockée à partir des éléments suivants : 
+<ul>
+<li>De tables préprogrammées et de la température des gaz d’échappement   (calculateur d’injection)</li>
+<li>De la richesse des gaz d’échappement : Sonde lambda proportionnelle (nouveau)</li>
+</ul>
+</div>
+<div class="par">Dès que la quantité maximale admissible de nitrates est atteinte, le calculateur d’injection provoque un fonctionnement moteur à mélange riche.</div><div class="par">Les nitrates sont transformés en azote.</div><div class="par">Dès la fin de déstockage, le moteur peut à nouveau fonctionner à mélange pauvre.</div><div class="par">Le cycle de stockage / déstockage peut intervenir toutes les         60 secondes lorsque le moteur fonctionne à mélange pauvre.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : L’azote est un gaz inerte. </div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Utiliser impérativement du carburant sans plomb pour éviter la dégradation du catalyseur et de la sonde lambda. </div></div>
+<div class="cha2"><div class="sti2">10.6. Recyclage des gaz d’échappement</div></div>
+<div id="b1hp1c3d_13_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/3d/b1hp/b1hp1c3d.avif" class="image" height="360" width="615" id="b1hp1c3d_13"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1hp1c3d</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/3d/b1hp/b1hp1c3d.avif" data-figure="1"><img id="b1hp1c3d_13_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Flèches        : Sens de circulation des gaz d’échappement.</div><div class="par">  (18) Répartiteur d’admission d’air.</div><div class="par">  (23) Culasse.</div><div class="par">  (51) Vanne de recyclage des gaz d’échappement (E.G.R).</div><div class="par">  (56) Boîtier papillon .</div><div class="par">  (61) Collecteur d’échappement.</div><div class="par">  (68)  précatalyseur.</div><div class="par">  (70) Tube de recyclage des gaz d’échappement.</div><div class="par">  (71) Boîtier de sortie d’eau .</div><div class="tli">Le recyclage des gaz d’échappement est utilisé : 
+<ul>
+<li>Pour abaisser la consommation carburant en diminuant l’effet de pompage à faible charge</li>
+<li>Pour réduire la quantité d’oxydes d’azote rejetés à l’atmosphère</li>
+</ul>
+</div>
+<div class="par">Le recyclage des gaz d’échappement est de type progressif et géré par une cartographie.</div><div class="par">Les oxydes d’azote non recyclés dans l’admission sont stockés puis éliminés dans le pot catalytique.</div><div class="cha2"><div class="sti2">10.7. Vanne de recyclage des gaz d’échappement (E.G.R)</div></div>
+<div class="tli">Particularités : 
+<ul>
+<li>Vanne de recyclage à commande électromagnétique (EGR)</li>
+<li>Électrovanne proportionnelle commandée par le calculateur d’injection</li>
+</ul>
+</div>
+<div class="par">La position du boisseau de la vanne de recyclage des gaz d’échappement est déterminée par un potentiomètre          (indémontable).</div><div class="cha1"><div class="sti1">11. Circuit d’alimentation carburant</div></div>
+<div id="b1hp1c4p_14_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/4p/b1hp/b1hp1c4p.avif" class="image" height="720" width="615" id="b1hp1c4p_14"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b1hp1c4p</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/4p/b1hp/b1hp1c4p.avif" data-figure="1"><img id="b1hp1c4p_14_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   (14) Injecteurs essence.</div><div class="par">  (19) Rampe alimentation injecteur.</div><div class="par">  (23) Culasse.</div><div class="par">  (72) Amortisseur de pulsations.</div><div class="par">  (73) Raccord encliquetable d’entrée basse pression.</div><div class="par">  (74) Raccord de sortie haute pression .</div><div class="par">  (75) Pompe haute pression carburant .</div><div class="par">  (76)  entretoise  (thermique).</div><div class="par">  (77) Joint de combustion.</div><div class="par">  (78) Joint torique et rondelle antiretournement.</div><div class="par">  (79) Clip de maintien .</div><div class="par">  (80) Écran acoustique.</div><div class="par">  (81) Régulateur de pression d’essence.</div><div class="par">  (82) Capteur haute pression carburant .</div><div class="par">  (83) Tube d’alimentation carburant.</div><div class="par">  (84) Tube d’alimentation carburant.</div><div class="par">  (85) Valve SCHRADER.</div><div class="par">"  q" : Vers canalisation alimentation carburant (réservoir à carburant).</div><div class="par">"  r" : Came d’entraînement.</div><div class="par">Particularités   : Pression en sortie de la pompe de gavage : 5 bars.</div><div class="cha2"><div class="sti2">11.1. Valve SCHRADER</div></div>
+<div class="par">La valve  SCHRADER est une pièce de type valve de roue.</div><div class="tli">Fonctions  : 
+<ul>
+<li>Mise hors pression du circuit</li>
+<li>Contrôle de la pression</li>
+<li>Contrôle du débit</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">11.2. Pompe haute pression carburant </div></div>
+<div class="par">La pompe haute pression carburant est placée en bout de l’arbre à cames d’admission  (côté embrayage).</div><div class="tli">Particularités : 
+<ul>
+<li>Système d’entraînement à clavette</li>
+<li>Pompe haute pression carburant à   3 pistons axiaux, lubrifiée à vie</li>
+<li>La pompe haute pression carburant est composée de 2 chambres (une pour l’essence, l’autre pour l’huile de graissage des pièces mécaniques) isolées par une membrane en élastomère </li>
+<li>La haute pression est crée par l’action des pistons sur la membrane par l’intermédiaire d’un coussin d’huile</li>
+<li>Un clapet interne permet de limiter la pression sur la canalisation haute pression (tarage spécifique = 130 bars)</li>
+<li>Une chambre d’expansion permet d’absorber les dilatations de l’huile de graissage</li>
+</ul>
+</div>
+<div class="par">Un joint torique permet l’étanchéité entre la culasse et la pompe haute pression carburant.</div><div class="par">Le service des Pièces de Rechange commercialise la pompe haute pression carburant équipée     : Raccord basse pression - Raccord de sortie haute pression  - Came d’entraînement.</div><div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Aucune intervention n’est autorisée sur la pompe haute pression carburant. </div></div>
+<div class="cha2"><div class="sti2">11.3. Canalisation haute pression carburant</div></div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : L’élément est à remplacer à chaque dépose. </div></div>
+<div class="cha2"><div class="sti2">11.4. Injecteurs essence</div></div>
+<div class="par">Les injecteurs essence sont similaires aux injecteurs utilisés en injection indirecte mais renforcés pour la haute pression carburant.</div><div class="tli">Les pièces suivantes sont à échanger à chaque dépose de la rampe commune d’alimentation carburant (rail) : 
+<ul>
+<li>Le joint de combustion (      77) (joint en téflon)</li>
+<li>Le joint torique et rondelle antiretournement (78)</li>
+<li>Le clip de maintien (79) des injecteurs essence</li>
+</ul>
+</div>
+<div class="par">La repose du joint (  77) nécessite l’utilisation d’un outillage spécifique (voir opération correspondante).</div><div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Les injecteurs essence sont commandés par une tension de   77 volts, ne pas intervenir sur le faisceau électrique moteur tournant. </div></div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Il est possible de tester un injecteur essence avec une pile plate de   4,5 Volts pendant une seconde maximum. </div></div>
+<div class="par">Il n’est pas possible de nettoyer les injecteurs essence avec les appareils préconisés   (résistance électrique du bobinage très faible, tension de commande spécifique).</div><div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Les injecteurs essence ne doivent pas être nettoyés aux ultrasons. </div></div>
+<div class="cha2"><div class="sti2">11.5. Régulateur haute pression carburant </div></div>
+<div class="par">Le régulateur de pression d’essence ( 81) permet la régulation de la haute pression carburant dans le rail (19).</div><div class="par">Le régulateur de pression d’essence permet d’obtenir la pression de carburant nécessaire pour chaque phase de fonctionnement moteur   (5, 30, 70 et 100 bars).</div><div class="cha2"><div class="sti2">11.6. Capteur haute pression carburant </div></div>
+<div class="par">Le capteur mesure la valeur de la haute pression dans la rampe d’injection commune haute pression carburant.</div><div class="cha1"><div class="sti1">12. Circuit de refroidissement</div></div>
+<div class="cha2"><div class="sti2">12.1. Particularités</div></div>
+<div class="par">Boîte de dégazage séparée du radiateur.</div><div class="par">Régulateur thermostatique à deux clapets.</div><div class="par">Liaisons des tuyaux en sortie de radiateur et d’aérotherme sont réalisé par des raccords encliquetables.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : La méthode de purge du circuit de refroidissement est similaire à celle utilisée avec les motorisations         XU. </div></div>
+<div class="cha2"><div class="sti2">12.2. Pompe à eau </div></div>
+<div class="par">Identique à la version moteur  EW10J4.</div><div class="tli">Particularités : 
+<ul>
+<li>Matière   : Matériaux composites</li>
+<li>Entraînement : Courroie de distribution </li>
+<li>La pompe à eau située à l’extérieur du carter-cylindres</li>
+</ul>
+</div>
+<div class="par">Seul une pompe complète est commercialisée par le service des Pièces de Rechange.</div><div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Toujours reposer les goupilles de centrage à la repose de la pompe à eau. </div></div>
+<div class="cha1"><div class="sti1">13. Entraînement des accessoires</div></div>
+<div class="par">La tension de la courroie d’accessoires est réalisée par un tendeur dynamique.</div><div class="par">Manoeuvre du tendeur dynamique        : Carré d’entraînement.</div><div class="par">Blocage du tendeur dynamique   : Pige .</div><div class="par">Dépose / repose courroie d’accessoires   (voir opération correspondante).</div><div class="cha1"><div class="sti1">14. Alternateur à charge progressive</div></div>
+<div class="par">Le moteur est équipé d’un d’alternateur spécifique.</div><div class="par">La montée du courant d’excitation de l’alternateur est progressive lors d’un appel de puissance.</div><div class="tli">Ce type d’alternateur permet : 
+<ul>
+<li>D’optimiser l’agrément de conduite</li>
+<li>Au calculateur d’injection de gérer le moteur avec des stratégies couple</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">15. Système d’injection </div></div>
+<div class="cha2"><div class="sti2">15.1.  injection </div></div>
+<div class="par"> fournisseur  : SIEMENS.</div><div class="par">Type  : SIRIUS 81.</div><div class="tli">Particularités : 
+<ul>
+<li>Injection multipoints séquentielle</li>
+<li>Allumage "séquentiel"</li>
+</ul>
+</div>
+<div class="tli">Le calculateur moteur gère l’injection à partir des informations de couple moteur : 
+<ul>
+<li>Le calculateur moteur calcule le besoin en couple du moteur à partir du capteur pédale d’accélérateur</li>
+<li>Le couple moteur demandé tient compte de corrections diverses     (couple absorbé par l’alternateur, couple absorbé par le compresseur de réfrigération, ...)</li>
+<li>Le couple moteur demandé se transforme en temps d’injection, phasage d’injection, commande d’ouverture du boîtier papillon et avance à l’allumage</li>
+</ul>
+</div>
+<div class="tli">Le calculateur gère également les fonctions suivantes : 
+<ul>
+<li>Gestion du mode de fonctionnement moteur</li>
+<li>Gestion du stockage / déstockage des oxydes d’azote</li>
+<li>Gestion de la haute pression carburant</li>
+<li>Distribution à calage variable</li>
+<li>Recyclage des gaz d’échappement</li>
+<li>  EOBD (*)</li>
+<li>Autodiagnostic</li>
+<li>Refroidissement moteur</li>
+<li>Besoin de refroidissement pour l’air conditionné (BRAC)</li>
+<li>Régulation de vitesse </li>
+<li>Antidémarrage électronique </li>
+<li>Dialogue avec d’autres calculateurs (BVA, BSI, ABS, ...) par le réseau CAN (**)</li>
+</ul>
+</div>
+<div class="par">  (*) EOBD : European On Board Diagnosis, diagnostic des équipements de dépollution.</div><div class="par">  (**) CAN = Controller Area Network.</div><div class="cha2"><div class="sti2">15.2. Allumage </div></div>
+<div class="tli">Boîtier bobines compact  : 
+<ul>
+<li>Les bobines sont solidaires d’un boîtier compact logé et fixé sur la culasse (BBC 4.1)</li>
+<li>Le boîtier bobines compact contient 4 bobines d’allumage</li>
+</ul>
+</div>
+<div class="tli">Bougies d’allumage  : Particularités : 
+<ul>
+<li> fournisseur  : BOSCH Platinum</li>
+<li>Siège plat</li>
+<li>Écartement des électrodes  : 1 mm </li>
+<li>Couple de serrage : 2,5 m.daN</li>
+</ul>
+</div>
+<div class="par">Résistance  : 3000 à 9000 ohms.</div><div class="par">La dépose des bougies d’allumage nécessite l’emploi d’une clé spécifique (  12 pans) (coffret 0189).</div><div class="par">Périodicité d’échange   : Se reporter aux notes d’entretien.</div><div class="cha2"><div class="sti2">15.3.  calculateur d’injection</div></div>
+<div class="tli">Particularités : 
+<ul>
+<li>Nouvelle connectique  (répartition des 112 voies sur 3 connecteurs)</li>
+<li>Verrouillage des connecteurs par étrier plastique</li>
+<li>Repérage des voies du calculateur : Repère alphanumérique</li>
+</ul>
+</div>
+<div class="tli">Dépose des connecteurs du calculateur : 
+<ul>
+<li>Escamoter l’étrier</li>
+<li>Débrancher le connecteur  du calculateur </li>
+</ul>
+</div>
+<div class="tli">Repose des connecteurs du calculateur : 
+<ul>
+<li>Étrier basculé, engager le connecteur dans le calculateur</li>
+<li>Verrouiller précautionneusement par l’intermédiaire de l’étrier</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">15.4. Téléchargement</div></div>
+<div class="par">Ce calculateur d’injection allumage, est équipé d’une mémoire "FLASH-EPROM".</div><div class="tli">Particularité de la mémoire "     FLASH-EPROM" : 
+<ul>
+<li>Ce type de mémoire permet, dans le cas d’une évolution de calibration, de modifier le contenu de la mémoire du calculateur sans démontage ni échange du calculateur</li>
+<li>Au lieu d’effectuer l’échange du calculateur ou de l’eprom, l’opération consiste à "télécharger" le programme du calculateur dans sa mémoire, à partir d’un outil après-vente adéquat, via la prise de diagnostic</li>
+</ul>
+</div>
+</div>

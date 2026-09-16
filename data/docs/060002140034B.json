@@ -1,0 +1,23 @@
+{
+ "ref": "060002140034B",
+ "refDisplay": "0600 02 140034B",
+ "title": "POMPE INJECTION SUPPORT PIGNON",
+ "nature": "",
+ "applicability": " DEPUIS OPR 09093",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0010"
+  }
+ ]
+}

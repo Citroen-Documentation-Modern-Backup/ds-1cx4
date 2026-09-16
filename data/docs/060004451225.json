@@ -1,0 +1,23 @@
+{
+ "ref": "060004451225",
+ "refDisplay": "0600 04 451225",
+ "title": "FREINS AVANT DISQUE ETRIER PLAQUETTES",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0040"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0040"
+  }
+ ]
+}

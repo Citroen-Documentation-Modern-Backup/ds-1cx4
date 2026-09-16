@@ -1,0 +1,23 @@
+{
+ "ref": "060001330140",
+ "refDisplay": "0600 01 330140",
+ "title": "BOITE DE VITESSES AUTOMATIQUE",
+ "nature": "",
+ "applicability": "BVA AL4 JUSQU’A OPR 08896",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0017"
+  }
+ ]
+}

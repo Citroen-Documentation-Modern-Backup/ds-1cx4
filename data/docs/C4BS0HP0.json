@@ -1,0 +1,60 @@
+{
+ "ref": "C4BS0HP0",
+ "refDisplay": "C4BS0HP0",
+ "title": "Dépose - repose : bras d’essuie-vitre arrière",
+ "nature": "Déshabillage/habillage",
+ "applicability": " DEPUIS OPR 8876",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6U",
+   "fctId": "FCT0322"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F7C",
+   "fctId": "FCT0322"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F9S",
+   "fctId": "FCT0322"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F2X",
+   "fctId": "FCT0322"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F7N",
+   "fctId": "FCT0322"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0322"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0322"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F3L",
+   "fctId": "FCT0322"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DCE&B0F=B0F7C",
+   "fctId": "FCT0322"
+  }
+ ]
+}

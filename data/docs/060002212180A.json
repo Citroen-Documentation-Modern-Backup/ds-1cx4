@@ -1,0 +1,23 @@
+{
+ "ref": "060002212180A",
+ "refDisplay": "0600 02 212180A",
+ "title": "BOUGIE - BOITIER PRECHAUFFAGE",
+ "nature": "",
+ "applicability": "SANS AUTO-DIAGNOSTIC \"EOBD\"",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0304"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0304"
+  }
+ ]
+}

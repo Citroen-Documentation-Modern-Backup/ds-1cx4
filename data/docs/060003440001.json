@@ -1,0 +1,43 @@
+{
+ "ref": "060003440001",
+ "refDisplay": "0600 03 440001",
+ "title": "POMPE ASSISTANCE DIRECTION",
+ "nature": "",
+ "applicability": "DIRECTION ASSISTANCE NON VARIABLE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6U",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F7N",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6U",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F7N",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0339"
+  }
+ ]
+}

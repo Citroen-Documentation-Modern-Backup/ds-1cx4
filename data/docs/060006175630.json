@@ -1,0 +1,23 @@
+{
+ "ref": "060006175630",
+ "refDisplay": "0600 06 175630",
+ "title": "BOITIER SONDE TEMPERATURE ECHAPP",
+ "nature": "",
+ "applicability": " JUSQU’A OPR 08907",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F7N",
+   "fctId": "FCT0012"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F7N",
+   "fctId": "FCT0012"
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">D4EM14P0</td><td class="title">Opérations après-vente : Gestion de l’adhérence du véhicule</td></tr></tbody></table></div><div id="appl" class="section_appl">AVEC SYSTEME ESP</div><div class="section_corps" id="content"><div class="cha1"><div class="sti1">1. Développement de roue différent</div></div>
+<div class="par">Le calculateur d’ESP corrige les informations qu’il délivre lorsqu’il identifie une roue ayant un développement différent de  5% par rapport aux autres roues.</div><div class="par">Les régulations d’ABS et de REF doivent être totalement opérationnelles jusqu’à une différence de développement de   12% entre les roues.</div><div class="par">Pour des différences de développement supérieures à   12% le système passe en mode dégradé.</div><div class="cha1"><div class="sti1">2. Capteur d’angle de volant de direction</div></div>
+<div class="tli">Le calibrage du capteur d’angle de volant de direction est nécessaire dans les cas suivants : 
+<ul>
+<li>Intervention sur le train avant</li>
+<li>Intervention sur la colonne de direction</li>
+<li>Changement du capteur d’angle de volant de direction</li>
+<li>Intervention sur le module de commande sous volant de direction</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Un calibrage mal effectué engendre un fonctionnement dégradé de l’   ESP. </div></div>
+<div class="cha1"><div class="sti1">3. Lecture des défauts</div></div>
+<div class="cha2"><div class="sti2">3.1. Véhicule équipé de l’ABS</div></div>
+<div class="tli">Il est possible de lire les défauts suivants à l’aide de l’outil de diagnostic : 
+<ul>
+<li>Défaut pompe hydraulique</li>
+<li>Défaut liquide de frein  : Résistance du contact trop élevée, Niveau de liquide de frein insuffisant</li>
+<li>Défaut information stop</li>
+<li>Défaut capteur de roue avant gauche : Cohérence, Impédance</li>
+<li>Défaut capteur de roue avant droit : Cohérence, Impédance</li>
+<li>Défaut capteur de roue arrière gauche : Cohérence, Impédance</li>
+<li>Défaut capteur de roue arrière droit : Cohérence, Impédance</li>
+<li>Défaut électrovanne</li>
+<li>Défaut surtension</li>
+<li>Défaut sous-tension</li>
+<li>Défaut absence de communication avec le BSI</li>
+<li>Défaut télécodage calculateur : Télécodage non effectué</li>
+<li>Défaut absence de communication sur le réseau CAN</li>
+<li>Défaut calculateur : Absence de signal, Hors fonctionnement, Cohérence</li>
+<li>Défaut absence de communication avec le calculateur moteur</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">3.2. Véhicule équipé de l’ESP</div></div>
+<div class="tli">Liste des paramètres supplémentaires aux paramètres des véhicules équipés de l’ ABS : 
+<ul>
+<li>Défaut capteur de pression de freinage : Interne, Circuit ouvert, Cohérence</li>
+<li>Défaut régulation couple moteur</li>
+<li>Défaut système ESP</li>
+<li>Défaut capteur lacet du véhicule : Interne, Cohérence, Court-circuit au +12 volts, Court-circuit à la masse, Circuit ouvert</li>
+<li>Défaut initialisation capteur de lacet ou capteur de pression de freinage</li>
+<li>Défaut capteur d’angle de volant de direction : Cohérence, Interne, Valeur reçue incorrecte</li>
+<li>Défaut absence de communication avec le capteur d’angle de volant de direction : Calibrage non effectué</li>
+<li>Défaut de fonctionnement capteur d’angle de volant de direction</li>
+<li>Défaut de fonctionnement du calculateur moteur</li>
+<li>Défaut de fonctionnement du BSI</li>
+<li>Défaut de communication avec la boîte de vitesses automatique : Absence de signal, Valeur reçue incorrecte</li>
+<li>Défaut de fonctionnement de la boîte de vitesses automatique</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">4. Lecture des paramètres</div></div>
+<div class="cha2"><div class="sti2">4.1. Véhicule équipé de l’ABS</div></div>
+<div class="tli">Il est possible de lire les défauts suivants à l’aide de l’outil de diagnostic : 
+<ul>
+<li>Vitesse de la roue arrière gauche</li>
+<li>Vitesse de la roue arrière droite</li>
+<li>Vitesse de la roue avant gauche</li>
+<li>Vitesse de la roue avant droite</li>
+<li>Vitesse véhicule </li>
+<li>Tension d’alimentation </li>
+<li>Contacteur feux stop</li>
+<li>Usure plaquettes de frein</li>
+<li>Niveau liquide de frein</li>
+<li>État du relais</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">4.2. Véhicule équipé de l’ESP</div></div>
+<div class="tli">Liste des paramètres supplémentaires aux paramètres des véhicules équipés de l’ ABS : 
+<ul>
+<li>Vitesse de lacet véhicule</li>
+<li>Capteur de pression </li>
+<li>Accélération transversale</li>
+<li>Régime moteur</li>
+<li>Couple demandé par le conducteur</li>
+<li>Rapport engagé </li>
+<li>Angle de volant de direction</li>
+<li>Commutateur coupure ASR / ESP</li>
+<li>Frein de stationnement</li>
+<li>Contact secondaire de pédale de frein</li>
+<li>Vitesse véhicule </li>
+<li>État moteur</li>
+<li>État réalisation ASR / MSR</li>
+<li>Couple réel</li>
+<li>Volonté conducteur</li>
+<li>État du capteur d’angle de volant de direction : État de fonctionnement du capteur d’angle de volant de direction</li>
+<li>Calibrage du capteur d’angle de volant de direction : Effectué  Non effectué</li>
+<li>Réglage capteur d’angle de volant de direction effectué (TRIM) : Ajustage à la fabrication effectué ou non effectué</li>
+<li>Contrôle ESP information vitesse angle de volant de direction</li>
+<li>Contrôle ESP information angle de volant de direction</li>
+<li>Sens de rotation du capteur d’angle volant de direction</li>
+<li>Rapport engagé calculé</li>
+<li>Changement de rapport en cours (boîte de vitesses automatique)</li>
+<li>État du convertisseur couple boîte (boîte de vitesses automatique)</li>
+<li>Position du levier de sélection (boîte de vitesses automatique)</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">5. Test actionneurs</div></div>
+<div class="cha2"><div class="sti2">5.1. Véhicule équipé de l’ABS</div></div>
+<div class="tli">Il est possible d’effectuer les tests actionneurs suivants   À l’aide de l’outil de diagnostic  : 
+<ul>
+<li>Activation de la pompe de recirculation pendant 10 secondes</li>
+<li>Électrovanne admission/échappement roue avant gauche</li>
+<li>Électrovanne admission/échappement roue avant droite</li>
+<li>Électrovanne admission/échappement roue arrière gauche</li>
+<li>Électrovanne admission/échappement roue arrière droite</li>
+<li>Électrovanne de commutation 1</li>
+<li>Électrovanne de commutation 2</li>
+<li>Électrovanne de limitation 1</li>
+<li>Électrovanne de limitation 2</li>
+</ul>
+</div>
+<div class="par">Lors du test actionneur des électrovannes, l’opérateur doit soulever la roue du véhicule et tourner la roue à la main.</div><div class="par">Lorsque les électrovannes fonctionnent correctement, il est possible de tourner la roue du véhicule par saccade pendant     5 secondes.</div><div class="cha2"><div class="sti2">5.2. Véhicule équipé de l’ESP</div></div>
+<div class="par">Les tests actionneurs pour les véhicules équipés de l’ ESP sont identiques aux tests actionneurs pour les véhicules équipés de l’ABS.</div><div class="cha1"><div class="sti1">6. Télécodage</div></div>
+<div class="par">Lorsqu’un calculateur n’a jamais été télécodé, un code défaut apparaît.</div><div class="par">Un calculateur non télécodé est malgré tout fonctionnel, il fonctionne dans ce cas en mode dégradé.</div><div class="par">Si une modification du logiciel intervient, il n’est pas nécessaire d’effectuer un nouveau télécodage.</div><div class="tli">Lors d’un télécodage, les donnés suivantes sont automatiquement modifiées dans le calculateur : 
+<ul>
+<li>Lieu de l’intervention</li>
+<li>Signature de l’outil de télécodage</li>
+<li>Nombre de télécodage</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">6.1. Véhicule équipé de l’       ABS</div></div>
+<div class="tli">Il est possible de télécoder les options suivantes   À l’aide de l’outil de diagnostic  : 
+<ul>
+<li>Loi de fonctionnement</li>
+<li>Type de pneumatiques</li>
+<li>Type boîte de vitesses</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">6.2. Véhicule équipé de l’ESP</div></div>
+<div class="tli">Liste des paramètres supplémentaires aux paramètres des véhicules équipés de l’ ABS : 
+<ul>
+<li>Calibrage du capteur d’angle de volant de direction</li>
+<li>Décalibrage du capteur d’angle de volant de direction</li>
+</ul>
+</div>
+</div>

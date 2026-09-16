@@ -1,0 +1,38 @@
+{
+ "ref": "060006173071A",
+ "refDisplay": "0600 06 173071A",
+ "title": "CANALISATION FIX FILTRE CARBURANT",
+ "nature": "",
+ "applicability": "SYSTEME INJECTION BOSCH DEPUIS OPR 08941 JUSQU’A OPR 09526",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F7C",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F9S",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F7C",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F9S",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DCE&B0F=B0F7C",
+   "fctId": "FCT0010"
+  }
+ ]
+}

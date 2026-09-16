@@ -1,0 +1,23 @@
+{
+ "ref": "060006640820A",
+ "refDisplay": "0600 06 640820A",
+ "title": "TUYAU FLUIDE REFRI - FIXATIONS",
+ "nature": "",
+ "applicability": "REFRIGERATION",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F3L",
+   "fctId": "FCT0347"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F3L",
+   "fctId": "FCT0347"
+  }
+ ]
+}

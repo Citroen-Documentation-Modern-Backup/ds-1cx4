@@ -1,0 +1,35 @@
+{
+ "ref": "B1BB7WP0",
+ "refDisplay": "B1BB7WP0",
+ "title": "Caractéristiques : vilebrequin  - coussinet de bielles - arbres d’équilibrage",
+ "nature": "Caractéristiques - identifications",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  }
+ ]
+}

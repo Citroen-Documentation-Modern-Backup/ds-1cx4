@@ -1,0 +1,35 @@
+{
+ "ref": "B1BE01P0",
+ "refDisplay": "B1BE01P0",
+ "title": "Contrôle  - dépose - repose - réglage : arbres d’équilibrage",
+ "nature": "Contrôles réglages",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  }
+ ]
+}

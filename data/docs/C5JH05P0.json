@@ -1,0 +1,20 @@
+{
+ "ref": "C5JH05P0",
+ "refDisplay": "C5JH05P0",
+ "title": "Remplacement : pare-chocs arrière  Citroën C5 BY CARLSSON",
+ "nature": "Remplacement",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F3L",
+   "fctId": "FCT0115"
+  }
+ ]
+}

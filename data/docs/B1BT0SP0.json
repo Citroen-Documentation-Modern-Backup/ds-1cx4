@@ -1,0 +1,25 @@
+{
+ "ref": "B1BT0SP0",
+ "refDisplay": "B1BT0SP0",
+ "title": "Évolution  : serrer la vis de la poulie d’entraînement des accessoires",
+ "nature": "Évolutions",
+ "applicability": " DEPUIS OPR 8631",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  }
+ ]
+}

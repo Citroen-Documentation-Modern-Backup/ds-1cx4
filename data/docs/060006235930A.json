@@ -1,0 +1,23 @@
+{
+ "ref": "060006235930A",
+ "refDisplay": "0600 06 235930A",
+ "title": "VASE EXPANSION CANALISATION EAU",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F3L",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F3L",
+   "fctId": "FCT0009"
+  }
+ ]
+}

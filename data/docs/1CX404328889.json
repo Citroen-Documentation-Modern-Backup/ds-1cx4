@@ -1,0 +1,19 @@
+{
+ "ref": "1CX404328889",
+ "refDisplay": "1CX4 0 432 8889",
+ "title": "GARNITURE DE DOSSIER AR D OU 1 COTE (FRACTIONNABLE)",
+ "nature": "",
+ "applicability": "(R00C) C5 BREAK 5PTES INJECTION ES9J4S BVA4",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F3L",
+   "fctId": "FCT0231"
+  }
+ ]
+}

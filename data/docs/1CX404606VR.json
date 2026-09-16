@@ -1,0 +1,24 @@
+{
+ "ref": "1CX404606VR",
+ "refDisplay": "1CX4 0 46 06VR",
+ "title": "6 BOBINES SUR CULASSE AV ET AR",
+ "nature": "",
+ "applicability": "(R00B) C5 BERLINE 5PTES INJECTION ES9J4S BVM5 OU (R00A) C5 BERLINE 5PTES INJECTION ES9J4S BVA4",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F3L",
+   "fctId": "FCT0013"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F3L",
+   "fctId": "FCT0013"
+  }
+ ]
+}

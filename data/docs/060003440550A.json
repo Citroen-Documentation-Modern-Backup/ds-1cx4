@@ -1,0 +1,23 @@
+{
+ "ref": "060003440550A",
+ "refDisplay": "0600 03 440550A",
+ "title": "CANALISATION TUYAU HP/BP SERVO",
+ "nature": "",
+ "applicability": "BVA HP ET CONDUITE A DROITE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0339"
+  }
+ ]
+}

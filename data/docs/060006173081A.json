@@ -1,0 +1,23 @@
+{
+ "ref": "060006173081A",
+ "refDisplay": "0600 06 173081A",
+ "title": "CANALISATION FIX FILTRE CARBURANT",
+ "nature": "",
+ "applicability": "FILTRE GAS OIL MAHLE DEPUIS OPR 08946 JUSQU’A OPR 09526",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0010"
+  }
+ ]
+}

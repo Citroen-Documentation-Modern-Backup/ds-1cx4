@@ -1,0 +1,38 @@
+{
+ "ref": "060005501126A",
+ "refDisplay": "0600 05 501126A",
+ "title": "FAISCEAU PRINCIPAL COMPARTIMENT MOTEUR",
+ "nature": "",
+ "applicability": "BSI LIGHT COM 2000",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F7C",
+   "fctId": "FCT0308"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F9S",
+   "fctId": "FCT0308"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F7C",
+   "fctId": "FCT0308"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F9S",
+   "fctId": "FCT0308"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DCE&B0F=B0F7C",
+   "fctId": "FCT0308"
+  }
+ ]
+}

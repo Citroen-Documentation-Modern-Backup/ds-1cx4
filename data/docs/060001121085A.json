@@ -1,0 +1,23 @@
+{
+ "ref": "060001121085A",
+ "refDisplay": "0600 01 121085A",
+ "title": "EQUILIBRAGE VILEBREQUIN",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0005"
+  }
+ ]
+}

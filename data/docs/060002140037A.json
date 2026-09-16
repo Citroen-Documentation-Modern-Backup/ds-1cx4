@@ -1,0 +1,23 @@
+{
+ "ref": "060002140037A",
+ "refDisplay": "0600 02 140037A",
+ "title": "DETAIL POMPE INJECTION ELECTROVANNE",
+ "nature": "",
+ "applicability": "SYSTEME INJECTION SIEMENS",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F2X",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F2X",
+   "fctId": "FCT0010"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "ref": "060001124350A",
+ "refDisplay": "0600 01 124350A",
+ "title": "SOUPAPES GUIDES CULBUTEURS",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F3L",
+   "fctId": "FCT0006"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F3L",
+   "fctId": "FCT0006"
+  }
+ ]
+}

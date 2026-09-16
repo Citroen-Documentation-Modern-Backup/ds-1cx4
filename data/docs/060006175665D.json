@@ -1,0 +1,23 @@
+{
+ "ref": "060006175665D",
+ "refDisplay": "0600 06 175665D",
+ "title": "BOITIER SONDE TEMPERATURE ECHAPP",
+ "nature": "",
+ "applicability": " DEPUIS OPR 09517 JUSQU’A OPR 09701",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0012"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0012"
+  }
+ ]
+}

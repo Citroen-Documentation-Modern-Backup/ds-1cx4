@@ -1,0 +1,23 @@
+{
+ "ref": "060006173377A",
+ "refDisplay": "0600 06 173377A",
+ "title": "FILTRE DECANTEUR POMPE AMORCAGE",
+ "nature": "",
+ "applicability": "SYSTEME INJECTION SIEMENS DEPUIS OPR 08981",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F2X",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F2X",
+   "fctId": "FCT0010"
+  }
+ ]
+}

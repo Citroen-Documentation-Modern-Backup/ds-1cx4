@@ -1,0 +1,33 @@
+{
+ "ref": "060001241042A",
+ "refDisplay": "0600 01 241042A",
+ "title": "MOTOVENTILATEUR BUSE CONDUIT D’AIR",
+ "nature": "",
+ "applicability": "1 VENTILATEUR 500W",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F7N",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F7N",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0009"
+  }
+ ]
+}

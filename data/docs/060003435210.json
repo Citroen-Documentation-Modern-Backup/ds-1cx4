@@ -1,0 +1,18 @@
+{
+ "ref": "060003435210",
+ "refDisplay": "0600 03 435210",
+ "title": "BARRES ANTIDEVERS AVANT",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F3L",
+   "fctId": "FCT0029"
+  }
+ ]
+}

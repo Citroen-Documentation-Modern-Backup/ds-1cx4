@@ -1,0 +1,33 @@
+{
+ "ref": "060001231040A",
+ "refDisplay": "0600 01 231040A",
+ "title": "POMPE A EAU JOINT COLLECTEUR EAU",
+ "nature": "",
+ "applicability": " JUSQU’A MOTEUR 0575378",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F7N",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6V",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F7N",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6V",
+   "fctId": "FCT0009"
+  }
+ ]
+}

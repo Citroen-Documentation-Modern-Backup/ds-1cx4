@@ -1,0 +1,20 @@
+{
+ "ref": "C5JS02P0",
+ "refDisplay": "C5JS02P0",
+ "title": "Habillage : pare-chocs avant  Citroën C5 BY CARLSSON",
+ "nature": "Déshabillage/habillage",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F3L",
+   "fctId": "FCT0102"
+  }
+ ]
+}

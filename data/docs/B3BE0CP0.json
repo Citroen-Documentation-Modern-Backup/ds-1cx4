@@ -1,0 +1,20 @@
+{
+ "ref": "B3BE0CP0",
+ "refDisplay": "B3BE0CP0",
+ "title": "Contrôle et réglage : hauteurs du véhicule Citroën C5 BY CARLSSON",
+ "nature": "Contrôles réglages",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F3L",
+   "fctId": "FCT0337"
+  }
+ ]
+}

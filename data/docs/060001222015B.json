@@ -1,0 +1,23 @@
+{
+ "ref": "060001222015B",
+ "refDisplay": "0600 01 222015B",
+ "title": "POMPE A HUILE - CHAINE - CREPINE",
+ "nature": "",
+ "applicability": " DEPUIS MOTEUR 0870674",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6U",
+   "fctId": "FCT0008"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6U",
+   "fctId": "FCT0008"
+  }
+ ]
+}

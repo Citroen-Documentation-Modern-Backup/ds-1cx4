@@ -1,0 +1,23 @@
+{
+ "ref": "060001333341",
+ "refDisplay": "0600 01 333341",
+ "title": "BOITIER ELECTRONIQUE",
+ "nature": "",
+ "applicability": "BVA AL4",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6U",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6U",
+   "fctId": "FCT0017"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "ref": "060001343068A",
+ "refDisplay": "0600 01 343068A",
+ "title": "DIFFERENTIEL BVM",
+ "nature": "",
+ "applicability": "BVM ML5C",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0017"
+  }
+ ]
+}

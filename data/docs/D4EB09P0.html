@@ -1,0 +1,95 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">D4EB09P0</td><td class="title">Généralités : Essuyage / lavage</td></tr></tbody></table></div><div id="appl" class="section_appl"></div><div class="section_corps" id="content"><div class="cha1"><a name="LABEL1"></a><div class="sti1">1. Préambule</div></div>
+<div class="par">La fonction essuyage/lavage gère les essuie-vitres, les lave-projecteurs, les lave-vitres avec les modes de fonctionnements suivants.</div><div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Organes</td>
+<td colspan="1" rowspan="1">Modes de fonctionnement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Essuie-vitre avant</td>
+<td colspan="1" rowspan="1">Essuyage par commande manuelle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Essuyage automatique par capteur de pluie&nbsp;(selon version)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Essuie-vitre arrière</td>
+<td colspan="1" rowspan="1">Essuyage par commande manuelle</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lave-projecteur </td>
+<td colspan="1" rowspan="1">Lavage des projecteurs avant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lave-vitre avant</td>
+<td colspan="1" rowspan="1">Lavage et essuyage de la vitre avant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Lave-vitre arrière</td>
+<td colspan="1" rowspan="1">Lavage et essuyage de la vitre arrière</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><a name="LABEL2"></a><div class="sti1">2. Synoptique général</div></div>
+<div id="d4ep03cd_1_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/cd/d4ep/d4ep03cd.avif" class="image" height="360" width="615" id="d4ep03cd_1"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep03cd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/cd/d4ep/d4ep03cd.avif" data-figure="1"><img id="d4ep03cd_1_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tli">Légende : 
+<ul>
+<li>Flèche simple : Liaison filaire</li>
+<li>Flèche triple : Liaison multiplexée</li>
+</ul>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="2">Organes</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Boîtier de servitude intelligent </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">BM34</td>
+<td colspan="1" rowspan="1">Boîtier de servitude moteur </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">CV00</td>
+<td colspan="1" rowspan="1">Module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5001</td>
+<td colspan="1" rowspan="1">Capteur de pluie&nbsp;(*)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5215</td>
+<td colspan="1" rowspan="1">Essuie-vitre arrière</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5015</td>
+<td colspan="1" rowspan="1">Essuie-vitre avant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5100</td>
+<td colspan="1" rowspan="1">Lave-vitre avant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5300</td>
+<td colspan="1" rowspan="1">Lave-vitre arrière</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5405</td>
+<td colspan="1" rowspan="1">Lave-projecteur &nbsp;(*)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">7020</td>
+<td colspan="1" rowspan="1">Calculateur ABS </td>
+</tr></tbody></table>
+</div>
+<div class="par">(*) selon versions.</div><div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="3">Liaisons</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">N° de liaison</td>
+<td colspan="1" rowspan="1">Signal </td>
+<td colspan="1" rowspan="1">Nature du signal</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1</td>
+<td colspan="1" rowspan="1">Information vitesse véhicule </td>
+<td colspan="1" rowspan="1">CAN </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">2</td>
+<td colspan="1" rowspan="1">Information capteur de pluie&nbsp;(*)</td>
+<td colspan="1" rowspan="1">Signal fréquentiel</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">3</td>
+<td colspan="1" rowspan="1">Information arrêt fixe essuie-vitre arrière</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">4</td>
+<td colspan="1" rowspan="1">Commande du moteur d’essuie-vitre arrière</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">5</td>
+<td colspan="1" rowspan="1">Information arrêt fixe du moteur d’essuie-vitre avant</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">6</td>
+<td colspan="1" rowspan="1">Commande des moteurs d’essuie-vitre avant</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">7</td>
+<td colspan="1" rowspan="1">Commande de la pompe lave-vitre en sens de rotation avant</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8</td>
+<td colspan="1" rowspan="1">Commande de la pompe lave-vitre en sens de rotation arrière</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">9</td>
+<td colspan="1" rowspan="1">Commande de la pompe lave-projecteurs</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">10</td>
+<td colspan="1" rowspan="1">Commande du relais de vitesse d’essuie-vitre avant. Commande du relais de la pompe de lave-vitre en sens de rotation avant. Commande du relais de la pompe de lave-vitre en sens de rotation arrière. Commande du relais de la pompe de lave projecteur&nbsp;(*)</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">11</td>
+<td colspan="1" rowspan="1">Commande du relais d’essuie-vitre avant</td>
+<td colspan="1" rowspan="1">Tout ou rien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">12</td>
+<td colspan="1" rowspan="1">Demande d’essuyage avant petite vitesse. Demande d’essuyage avant grande vitesse. Demande d’essuyage avant intermittent. Demande d’essuyage automatique. Demande d’essuyage impulsionnelle. Demande de lavage avant. Demande de lavage arrière. Demande de lavage des projecteurs. Information états des projecteurs</td>
+<td colspan="1" rowspan="1">VAN CAR1</td>
+</tr></tbody></table>
+</div>
+<div class="par">(*) selon versions.</div></div>

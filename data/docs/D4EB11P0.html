@@ -1,0 +1,114 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">D4EB11P0</td><td class="title">Généralités : Multiplexage </td></tr></tbody></table></div><div id="appl" class="section_appl"> DEPUIS OPR 8631</div><div class="section_corps" id="content"><div class="cha1"><div class="sti1">1. Multiplexage </div></div>
+<div class="cha2"><div class="sti2">1.1. Définitions</div></div>
+<div class="par">Le multiplexage consiste à faire circuler plusieurs informations numériques entre divers équipements électriques, sur un seul canal de transmission matérialisé par  2 fils.</div><div class="par">Le multiplexage est un mode de mise en action d’équipements électriques, nécessitant une architecture adaptée.</div><div class="par">Tous les messages envoyés sur le "bus" comportent une partie "information" ou "commande" et une partie identification du destinataire.</div><div class="tli">Le multiplexage utilise       2 protocoles de communication : 
+<ul>
+<li>Le VAN (Vehicle Area network)</li>
+<li>Le CAN (Controller Area Network)</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">1.2. Intérêt du multiplexage</div></div>
+<div class="tli">L’utilisation du multiplexage permet : 
+<ul>
+<li>Une simplification des faisceaux électriques</li>
+<li>Un enrichissement du nombre de fonctions (à nombre de fils équivalent)</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">2. Réseaux multiplexés</div></div>
+<div class="cha2"><div class="sti2">2.1. Généralités</div></div>
+<div class="par">Le véhicule est équipé de   3 réseaux de multiplexage, qui fonctionnent chacun dans un environnement bien précis.</div><div class="par">Les réseaux multiplexés sont gérés par le BSI (boîtier de servitude intelligent).</div><div class="cha2"><div class="sti2">2.2. Réseau   CAN : Présentation</div></div>
+<div class="par">Le réseau CAN relie l’ensemble des calculateurs du groupe motopropulseur, comme le système de freinage, le calculateur moteur et la suspension.</div><div class="par">Le réseau    CAN est un réseau "multimaître", où chaque calculateur diffuse en permanence des informations (taux de transfert : 250 kbits/s).</div><div class="par">Les informations diffusées sont récupérées par les calculateurs qui en ont l’utilité.</div><div class="tli">Exemple  : Le calculateur ABS met à disposition sur le réseau CAN les informations suivantes : 
+<ul>
+<li>Vitesse du véhicule</li>
+<li>Accélération longitudinale</li>
+<li>Distance parcourue </li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">2.3. Architecture du réseau CAN</div></div>
+<div id="d4ep03xd_1_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/xd/d4ep/d4ep03xd.avif" class="image" height="360" width="615" id="d4ep03xd_1"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep03xd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/xd/d4ep/d4ep03xd.avif" data-figure="1"><img id="d4ep03xd_1_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Légende</td>
+<td colspan="1" rowspan="1">Désignation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Boîtier de servitude intelligent </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1320</td>
+<td colspan="1" rowspan="1">Calculateur moteur </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">1630</td>
+<td colspan="1" rowspan="1">Calculateur de boîte de vitesses automatique  (*)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">7715</td>
+<td colspan="1" rowspan="1">Calculateur de suspension</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">7020</td>
+<td colspan="1" rowspan="1">Calculateur ABS </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">7800</td>
+<td colspan="1" rowspan="1">ESP (contrôle dynamique de stabilité) (*)</td>
+</tr></tbody></table>
+</div>
+<div class="par">  (*) : Selon version.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : La représentation des réseaux multiplexés est symbolique   Voir la schématique électrique pour le câblage réel. </div></div>
+<div class="cha2"><div class="sti2">2.4. Réseau VAN CONFORT : Présentation</div></div>
+<div class="par">Le réseau VAN CONFORT relie les calculateurs des équipements de l’habitacle comme l’écran multifonction, le combiné, l’autoradio et la climatisation.</div><div class="par">Le réseau    VAN CONFORT est un réseau "multimaître", où chaque calculateur diffuse en permanence des informations.</div><div class="par">Les informations diffusées sont récupérées par les calculateurs qui en ont l’utilité   (taux de transfert : 125 kbits/s).</div><div class="par">Les calculateurs reliés au réseau VAN CONFORT acquièrent les informations provenant du groupe motopropulseur (par l’intermédiaire du BSI) pour renseigner le conducteur sur l’état du véhicule.</div><div class="par">Le réseau VAN CONFORT assure l’interface "homme/machine".</div><div class="par">Exemple  : Le combiné acquiert l’information sur la température d’eau moteur (diffusée par le calculateur moteur) pour renseigner le conducteur sur la température du liquide de refroidissement.</div><div class="cha2"><div class="sti2">2.5. Architecture du réseau VAN CONFORT</div></div>
+<div id="d4ep040d_2_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/0d/d4ep/d4ep040d.avif" class="image" height="360" width="615" id="d4ep040d_2"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep040d</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/0d/d4ep/d4ep040d.avif" data-figure="1"><img id="d4ep040d_2_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Légende</td>
+<td colspan="1" rowspan="1">Désignation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Boîtier de servitude intelligent </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">0004</td>
+<td colspan="1" rowspan="1">Combiné </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">7215</td>
+<td colspan="1" rowspan="1">Écran multifonction </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8410</td>
+<td colspan="1" rowspan="1">Autoradio </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8500</td>
+<td colspan="1" rowspan="1">Calculateur de navigation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">7500</td>
+<td colspan="1" rowspan="1">Calculateur d’aide au stationnement</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8080</td>
+<td colspan="1" rowspan="1">Calculateur de réfrigération </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8415</td>
+<td colspan="1" rowspan="1">Changeur de disques compacts</td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : La représentation des réseaux multiplexés est symbolique   Voir la schématique électrique pour le câblage réel. </div></div>
+<div class="cha2"><div class="sti2">2.6. Réseau VAN CARROSSERIE : Présentation</div></div>
+<div class="par">Le réseau VAN CARROSSERIE est qualifié de réseau de sécurité et de protection du véhicule.</div><div class="tli">Le    VAN CARROSSERIE est constitué de deux réseaux : 
+<ul>
+<li>VAN carrosserie 1 (éléments de sécurité)</li>
+<li>VAN carrosserie 2</li>
+</ul>
+</div>
+<div class="par">Le réseau VAN CARROSSERIE   1 relie le système de gestion des coussins gonflables ainsi que le boîtier de servitude moteur, intégrant les commandes électriques de puissance du véhicule comme les feux avant.</div><div class="par">Le réseau VAN CARROSSERIE   1 retransmet les actions de l’utilisateur au BSI par l’électronique du module de commutation sous volant de direction.</div><div class="par">Le réseau VAN CARROSSERIE   2 relie les équipements de gestion des ouvrants (modules de porte, toit ouvrant) de l’alarme antieffraction, et du système d’additivation gazole (filtre à particules).</div><div class="par">Le réseau VAN CARROSSERIE est un réseau "maître/esclave".</div><div class="par">Le BSI envoie des demandes à chaque calculateur relié au réseau VAN CARROSSERIE     (taux de transfert : 62,5 kbits/s).</div><div class="cha2"><div class="sti2">2.7. Architecture du réseau VAN CAR 1</div></div>
+<div id="d4ep03yd_3_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/yd/d4ep/d4ep03yd.avif" class="image" height="360" width="615" id="d4ep03yd_3"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep03yd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/yd/d4ep/d4ep03yd.avif" data-figure="1"><img id="d4ep03yd_3_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Légende</td>
+<td colspan="1" rowspan="1">Désignation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Boîtier de servitude intelligent </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">BM34</td>
+<td colspan="1" rowspan="1">Boîtier de servitude moteur </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">CV00</td>
+<td colspan="1" rowspan="1">Module de commutation sous volant de direction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">6570</td>
+<td colspan="1" rowspan="1">Calculateur coussins gonflables</td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : La représentation des réseaux multiplexés est symbolique   Voir la schématique électrique pour le câblage réel. </div></div>
+<div class="cha2"><div class="sti2">2.8. Architecture du réseau VAN CAR 2</div></div>
+<div id="d4ep03zd_4_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/zd/d4ep/d4ep03zd.avif" class="image" height="360" width="615" id="d4ep03zd_4"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">d4ep03zd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/zd/d4ep/d4ep03zd.avif" data-figure="1"><img id="d4ep03zd_4_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Légende</td>
+<td colspan="1" rowspan="1">Désignation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">BSI </td>
+<td colspan="1" rowspan="1">Boîtier de servitude intelligent </td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">4350</td>
+<td colspan="1" rowspan="1">Calculateur d’additif de gazole</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">6800</td>
+<td colspan="1" rowspan="1">Calculateur de toit ouvrant</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">8600</td>
+<td colspan="1" rowspan="1">Calculateur d’alarme antieffraction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">9030</td>
+<td colspan="1" rowspan="1">Module de porte (avant gauche)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">9050</td>
+<td colspan="1" rowspan="1">Module de porte (avant droit)</td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : La représentation des réseaux multiplexés est symbolique   Voir la schématique électrique pour le câblage réel. </div></div>
+</div>

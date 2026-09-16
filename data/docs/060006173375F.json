@@ -1,0 +1,28 @@
+{
+ "ref": "060006173375F",
+ "refDisplay": "0600 06 173375F",
+ "title": "FILTRE DECANTEUR POMPE AMORCAGE",
+ "nature": "",
+ "applicability": "SYSTEME INJECTION BOSCH ET FILTRE GAS OIL BOSCH ET BVA JUSQU’A OPR 09248 OU SYSTEME INJECTION BOSCH ET FILTRE GAS OIL BOSCH ET BVM JUSQU’A OPR 08940",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DA5&B0F=B0F7C",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DC5&B0F=B0F7C",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CX4",
+   "variantKey": "B0D=B0DCE&B0F=B0F7C",
+   "fctId": "FCT0010"
+  }
+ ]
+}
